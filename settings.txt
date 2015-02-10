@@ -1,0 +1,11 @@
+{
+"features_path" : "C:\\Users\\Trevor\\Documents\\ArcGIS\\Projects\\Model Builder Project\\data\\features\\",
+"temp_path" : "C:\\Users\\Trevor\\Documents\\ArcGIS\\Projects\\Model Builder Project\\temp",
+"pickup_file" : "021L14_silo_p.shp",
+"dropoff_file" : "021L14_lu_yard_a.shp",
+"start_file" : "021L14_runway_a.shp",
+"roads_file" : "021L14_road_l.shp",
+"pipelines_file" : "021L14_pipelin_l.shp",
+"railways_file" : "021L14_railway_l.shp",
+"waypoint_file" : "waypoints.csv"
+}

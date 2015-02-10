@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE metadata [
+<!ENTITY nbsp "&#160;">
+<!ENTITY sup2 "&#178;">
+<!ENTITY sigma "&#963;">
+<!ENTITY radic "&#8730;">
+<!ENTITY le "&#8804;">
+<!ENTITY ge "&#8805;">
+]>
+<metadata>
+ <idinfo>
+  <citation>
+   <citeinfo>
+    <origin>Direction générale de l'information géographique, Ministère des Ressources naturelles et de la Faune (MRNF), Québec</origin>
+    <pubdate>20081215</pubdate>
+    <title>021L14, QUÉBEC</title>
+    <edition>2.0</edition>
+    <geoform>Données numériques matricielles</geoform>
+    <serinfo>
+     <sername>Données numériques d'élévation du Canada</sername>
+     <issue>GEOBASE_3.0</issue>
+    </serinfo>
+    <pubinfo>
+     <pubplace>Sherbrooke, Québec, Canada</pubplace>
+     <publish>Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre; Centre canadien de cartographie et d'observation de la Terre</publish>
+    </pubinfo>
+    <onlink>http://www.geobase.ca</onlink>
+   </citeinfo>
+  </citation>
+  <descript>
+   <abstract>Le Centre canadien de cartographie et d'observation de la Terre (CCCOT) produit les DNEC de concert avec des organismes fédéraux, provinciaux et territoriaux ainsi qu'avec le secteur privé. 
+
+Les DNEC consistent en un tableau ordonné de valeurs d'élévation au sol ou de surface (enregistrées en mètres) interpolées à des points régulièrement espacés. Les données sources numériques des DNEC peuvent être extraites des éléments hypsographiques et hydrographiques de la Base nationale de données topographiques (BNDT) aux échelles de 1/50 000 et 1/250 000, ou de la Base de données géospatiales (BDG), ou de données de position, à diverses échelles, acquises des provinces et territoires ou d'imageries de télédétection.</abstract>
+   <purpose>Les DNEC jouent le même rôle que les courbes de niveau et la représentation du relief par estompage sur les cartes de papier traditionnelles. 
+
+Les DNEC servent de données primaires clés dans toute une gamme d'applications critiques pour le développement durable. Ces applications englobent notamment les évaluations des incidences environnementales et écologiques, les analyses de l'écoulement et de la qualité de l'eau, les études sur le changement climatique, la planification de la régénération des forêts et l'étude des habitats fauniques. 
+
+Les DNEC peuvent, en outre, servir à la génération de représentations graphiques tridimensionnelles montrant la pente du terrain, de profils et de lignes de visée. Parmi les applications non graphiques qu'elles permettent, mentionnons les calculs du géoïde, la modélisation du terrain, les simulations de crues et des études dans le domaine des télécommunications.</purpose>
+   <supplinf>Données numériques d'élévation du Canada, niveau 1, Spécifications de produit, Édition 3.0, avril 2007. Ce produit est soumis à un processus de détection d'anomalies. Le terme anomalie désigne toute observation qui rend un jeu de données (ou métadonnées) non conforme aux normes et spécifications du produit. Pour de plus amples informations sur les anomalies détectées, contacter l'équipe de soutien aux usagers (geoginfo@NRCan.gc.ca).
+ Élévation (Z) minimale en mètres :  -16 Élévation (Z) maximale en mètres :  641. Type d'élévation : au sol.</supplinf>
+  </descript>
+  <timeperd>
+   <timeinfo>
+     <rngdates>
+      <begdate>19800301</begdate>
+      <enddate>20060418</enddate>
+     </rngdates>
+   </timeinfo>
+   <current>Condition au sol</current>
+  </timeperd>
+  <status>
+   <progress>Complet</progress>
+   <update>Au besoin</update>
+  </status>
+  <spdom>
+   <bounding>
+    <westbc>-71.5</westbc>
+    <eastbc>-71</eastbc>
+    <northbc>47</northbc>
+    <southbc>46.75</southbc>
+   </bounding>
+  </spdom>
+  <keywords>
+   <theme>
+     <themekt>GCMD (Global Change Master Directory)</themekt>
+     <themekey>sciences de la Terre &gt; surface terrestre &gt; topographie &gt; relief topographique</themekey>
+     <themekey>sciences de la Terre &gt; surface terrestre &gt; topographie &gt; courbes</themekey>
+     <themekey>sciences de la Terre &gt; surface terrestre &gt; topographie &gt; élévation du terrain</themekey>
+   </theme>
+   <place>
+     <placekt>Aucun</placekt>
+     <placekey>021L14</placekey>
+     <placekey>Continent &gt; Amérique du Nord &gt; Canada &gt; Québec</placekey>
+   </place>
+  </keywords>
+  <accconst>Licence du gouvernement ouvert - Canada (http://donnees.gc.ca/fra/licence-du-gouvernement-ouvert-canada)</accconst>
+  <useconst>Licence du gouvernement ouvert - Canada (http://donnees.gc.ca/fra/licence-du-gouvernement-ouvert-canada)</useconst>
+  <ptcontac>
+   <cntinfo>
+     <cntorgp>
+      <cntorg>Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre; Centre canadien de cartographie et d'observation de la Terre</cntorg>
+      <cntper>Soutien technique GéoBase</cntper>
+     </cntorgp>
+    <cntaddr>
+     <addrtype>Adresse postale et physique</addrtype>
+     <address>2144, rue King Ouest, bureau 010</address>
+     <city>Sherbrooke</city>
+     <state>Québec</state>
+     <postal>J1J 2E8</postal>
+     <country>Canada</country>
+    </cntaddr>
+    <cntvoice>+01-819-564-5600 / 1-800-661-2638 (Canada et États-Unis)</cntvoice>
+    <cntfax>+01-819-564-5698</cntfax>
+    <cntemail>SoutienGeoBase@rncan.gc.ca</cntemail>
+    <hours>8h30 à 12h00 et 13h00 à 16h30 (heure de l'Est)</hours>
+   </cntinfo>
+  </ptcontac>
+ </idinfo>
+ <dataqual>
+  <logic>Une valeur d'élévation de zéro mètre est attribuée au trait de côte, aux océans et aux estuaires au niveau moyen de la mer du Canada. Cependant les valeurs d'élévation du trait de côte, des océans et estuaires de la province de la Nouvelle-Écosse sont illustrées selon le niveau moyen des hautes eaux (NMHE), élévations qui varient à travers la province. Toutes les données NMHE sont en référence au Plan de référence des levés géodésiques du Canada de 1928 (CGVD28). Pour les DNEC produits à partir d'élévations au sol, les étendues d'eau sont des étendues naturelles présentant une élévation constante (lacs) ou une faible pente (cours d'eau). On attribue aux étendues d'eau leur élévation connue ou estimée. Les étendues d'eau (lacs) sont représentées plus planes et plus basses que le terrain avoisinant (une élévation par lac) et la rive doit être nettement perceptible. On attribue à une étendue d'eau dont l'élévation n'est pas connue une élévation interpolée dont la valeur se situe à au moins un mètre de moins que la valeur de la courbe de niveau qui en ceinture la rive. Le drainage (cours d'eau) doit être continu (sans interruption), présenter un écoulement constant de l'eau et des valeurs de z en ordre décroissant.
+Pour les DNEC produits à partir d'élévation de surface, les étendues d'eau pourraient ne pas avoir une élévation constante. Elles pourraient avoir une faible pente indiquant la direction du flot d'écoulement des eaux. Le processus de contrôle de la qualité des DNEC assure que les données sont lisses à l'intérieur du quadrillage et continues d'un noeud à l'autre, à l'exception des endroits de bris naturels tels que cours d'eau, falaises et cratères.
+</logic>
+  <complete>Le contenu des jeux de données DNEC est constant étant donné que le nombre de points d'élévation par profil et que le nombre de profils par cellule sont constants pour tous les fichiers DNEC (1201 x 1201).</complete>
+  <posacc>
+   <horizpa>
+    <horizpar>L'évaluation de la précision est fonction de(s) source(s) de données utilisée(s) lors de la génération de la DNEC. Source de données : Base de données topographiques du Québec (BDTQ).
+
+COURBES DE NIVEAU
+- Les courbes de niveau à l'échelle 1/20 000 ont été produites en utilisant de la photogrammétrie avec photographie aérienne à l'échelle 1/40 000;
+- 90% de toutes les objets géographiques bien définies se situent à moins de 4 m, à l'échelle de 1/20 000 (photographie source à l'échelle de 1/40 000), de leur position réelle.
+
+POINTS COTÉS :
+- Sur le sommet des montagnes et dans les dépressions;
+- Sur les voies de communication et des intersections;
+- Sur les ponts;
+- Niveaux de l'eau de tous les lacs;
+- En tout autre point identifiable au sol comme les affleurements rocheux importants, les petites clairières en forêt et autre surface dénudé;
+- Dans les carrières, banc d'emprunt, mine à ciel ouvert : semis au 300 mètres si l'un des axes excède 500 mètres;
+- En terrain plat, l'intervalle de ces entités est de 1000 mètres en milieu rural et de 500 mètres en milieu urbain;
+- L'altitude réelle est définie comme étant les coordonnées qui seraient obtenues par positionnement au sol d'après des méthodes d'ordre supérieur.
+La qualité métrique de l'objet géographique est élevée, ainsi l'erreur sur les points cotés altimétriques n'excède pas 4 mètres à l'échelle 1/20 000.
+
+HYDROGRAPHIE
+- Les entités hydrographiques peuvent comprendre des plans d'eau artificiels et naturels;
+- Les entités du réseau hydrographique (c.-à-d. lacs et rivières) d'une largeur moyenne inférieur à 20 m à l'échelle 1/20 000, sont représentées comme des entités linéaires. Les entités du réseau hydrographique de largeur supérieur à 20 m, à l'échelle 1/20 000, sont considérées comme des plans d'eau et représentées par des entités polygonales. Les polygones ont été identifiés séparément comme des cours d'eau, des réservoirs ou des lacs;
+- Les îles ont été constituées sous forme de polygones à l'intérieur des plans d'eau;
+- La jonction de deux plans d'eau (lacs vs cours d'eau) est numérisée de façon à ce qu'une ligne virtuelle de plan d'eau sépare les entités polygonales;
+- La position réelle est définie comme étant les coordonnées qui seraient obtenues par positionnement au sol d'après des méthodes d'ordre supérieur;
+- 90% de toutes les objets géographiques bien définies se situent à moins de 4 m, à l'échelle de 1/20 000 (photographie source à l'échelle de 1/40 000), de leur position réelle.</horizpar>
+    <qhorizpa>
+     <horizpav>4</horizpav>
+     <horizpae>Précision circulaire cartographique normalisée (PCCN) pour BDTQ - source des courbes de niveau du Ministère des Ressources naturelles et Faune du Québec - DGIG.</horizpae>
+    </qhorizpa>
+    <qhorizpa>
+     <horizpav>4</horizpav>
+     <horizpae>Précision circulaire cartographique normalisée (PCCN) pour BDTQ - source de l'hydrographie du Ministère des Ressources naturelles et Faune du Québec - DGIG.</horizpae>
+    </qhorizpa>
+    <qhorizpa>
+     <horizpav>4</horizpav>
+     <horizpae>Précision circulaire cartographique normalisée (PCCN) pour BDTQ - sources des altitudes de lac du Ministère des Ressources naturelles et Faune du Québec - DGIG.</horizpae>
+    </qhorizpa>
+    <qhorizpa>
+     <horizpav>4</horizpav>
+     <horizpae>Précision circulaire cartographique normalisée (PCCN) pour BDTQ - source des points cotés du Ministère des Ressources naturelles et Faune du Québec - DGIG.</horizpae>
+    </qhorizpa>
+   </horizpa>
+   <vertacc>
+    <vertaccr>La précision verticale des fichiers DNEC a été évaluée par des mesures directes par rapport aux points de contrôle de la Base de Données des Levés Aériens -BDLA (Aerial Survey Data Base - ASDB) qui a été produite par la Direction d'information cartographique de Ressources Naturelles.
+La BDLA contient un grand nombre des points de contrôle couvrant une grande partie du territoire canadien. Les coordonnées X, Y, Z de ces points ont été calculées par un processus rigoureux de compensation par photo-triangulation qui constitue une densification du réseau de points géodésiques établis par la Division des Levés Géodésie de Ressources Naturelles Canada.
+La BDLA a fournit un réseau homogène de points de contrôle pour l'orientation absolue des modèles photogrammétriques stéréoscopiques utilisés pour la production des cartes topographiques à l'échelle de 1 :50 000 de la série SNRC (Système national de référence cartographique) et des produits cartographiques dérivés.
+La précision des fichiers DNEC est exprimée comme une erreur linéaire avec une probabilité de 90% et a été calculée en utilisant la formule suivante : 
+LE90 = sMNE * 1.6449</vertaccr>
+    <qvertpa>
+     <vertaccv>4.1</vertaccv>
+     <vertacce>Précision linéaire cartographique normalisée (PLCN) pour les valeurs d'élévation. Valeur de la précision d'alignement vertical obtenue par mesure directe utilisant les points de contrôle de l'ASDB.
+</vertacce>
+    </qvertpa>
+   </vertacc>
+  </posacc>
+  <lineage>
+   <srcinfo>
+    <srccite>
+     <citeinfo>
+      <origin>Direction générale de l'information géographique, Ministère des Ressources naturelles et de la Faune (MRNF), Québec</origin>
+      <pubdate>20070401</pubdate>
+      <title>BDTQ</title>
+      <edition>0.0</edition>
+      <geoform>Données numériques vectorielles</geoform>
+      <serinfo>
+       <sername>Base de données topographiques du Québec (BDTQ) - Altitudes de lac</sername>
+       <issue>Inconnu</issue>
+      </serinfo>
+     </citeinfo>
+    </srccite>
+    <srcscale>20000</srcscale>
+    <typesrc>Disque</typesrc>
+    <srctime>
+     <timeinfo>
+       <rngdates>
+        <begdate>19800301</begdate>
+        <enddate>20060418</enddate>
+       </rngdates>
+     </timeinfo>
+     <srccurr>Date de publication</srccurr>
+    </srctime>
+    <srccitea>BDTQ-ALTI-LAC-BDTQ-0.0</srccitea>
+    <srccontr>Altitudes de lac</srccontr>
+   </srcinfo>
+   <srcinfo>
+    <srccite>
+     <citeinfo>
+      <origin>Direction générale de l'information géographique, Ministère des Ressources naturelles et de la Faune (MRNF), Québec</origin>
+      <pubdate>20070401</pubdate>
+      <title>BDTQ</title>
+      <edition>0.0</edition>
+      <geoform>Données numériques vectorielles</geoform>
+      <serinfo>
+       <sername>Base de données topographiques du Québec (BDTQ) - Courbes de niveau</sername>
+       <issue>Inconnu</issue>
+      </serinfo>
+     </citeinfo>
+    </srccite>
+    <srcscale>20000</srcscale>
+    <typesrc>Disque</typesrc>
+    <srctime>
+     <timeinfo>
+       <rngdates>
+        <begdate>19800301</begdate>
+        <enddate>20060418</enddate>
+       </rngdates>
+     </timeinfo>
+     <srccurr>Date de publication</srccurr>
+    </srctime>
+    <srccitea>BDTQ-COURBES-BDTQ-0.0</srccitea>
+    <srccontr>Courbes de niveau</srccontr>
+   </srcinfo>
+   <srcinfo>
+    <srccite>
+     <citeinfo>
+      <origin>Direction générale de l'information géographique, Ministère des Ressources naturelles et de la Faune (MRNF), Québec</origin>
+      <pubdate>20070401</pubdate>
+      <title>BDTQ</title>
+      <edition>0.0</edition>
+      <geoform>Données numériques vectorielles</geoform>
+      <serinfo>
+       <sername>Base de données topographiques du Québec (BDTQ) - Hydrographie</sername>
+       <issue>Inconnu</issue>
+      </serinfo>
+     </citeinfo>
+    </srccite>
+    <srcscale>20000</srcscale>
+    <typesrc>Disque</typesrc>
+    <srctime>
+     <timeinfo>
+       <rngdates>
+        <begdate>19800301</begdate>
+        <enddate>20060418</enddate>
+       </rngdates>
+     </timeinfo>
+     <srccurr>Date de publication</srccurr>
+    </srctime>
+    <srccitea>BDTQ-HYDRO-BDTQ-0.0</srccitea>
+    <srccontr>Hydrographie</srccontr>
+   </srcinfo>
+   <srcinfo>
+    <srccite>
+     <citeinfo>
+      <origin>Direction générale de l'information géographique, Ministère des Ressources naturelles et de la Faune (MRNF), Québec</origin>
+      <pubdate>20070401</pubdate>
+      <title>BDTQ</title>
+      <edition>0.0</edition>
+      <geoform>Données numériques vectorielles</geoform>
+      <serinfo>
+       <sername>Base de données topographiques du Québec (BDTQ) - Points cotés</sername>
+       <issue>Inconnu</issue>
+      </serinfo>
+     </citeinfo>
+    </srccite>
+    <srcscale>20000</srcscale>
+    <typesrc>Disque</typesrc>
+    <srctime>
+     <timeinfo>
+       <rngdates>
+        <begdate>19800301</begdate>
+        <enddate>20060418</enddate>
+       </rngdates>
+     </timeinfo>
+     <srccurr>Date de publication</srccurr>
+    </srctime>
+    <srccitea>BDTQ-POINTS-COTE-BDTQ-0.0</srccitea>
+    <srccontr>Points cotés</srccontr>
+   </srcinfo>
+   <procstep>
+    <procdesc>Le produit DNEC du Québec a été créé dans le cadre du Projet Carto-Nord, du ministère des Ressources naturelles et de la faunes (MRNF) du Québec, à l'aide de données sources à l'échelle de 1/20 000 acquises au cours du programme de cartographie de base du Québec (BDTQ).
+
+1. Sources des données altimétriques
+Base de données topographique du Québec (BDTQ)
+Quatre jeux de données principaux ont servi à mettre au point le produit DNEC. Il s'agit des jeux de données suivants : 1) Courbes de niveau de la BDTQ 2) Points cotés de la BDTQ, 3) Réseau hydrographique de la BDTQ, 4) Altitude des lacs déterminée à l'aide des points cotés et des entités hydrographiques de la BDTQ. Les éléments géométriques et altimétriques (courbes de niveaux à intervalles de 10m) ont été saisie par photogrammétrie avec des photographies aériennes à l'échelle 1/40 000.
+
+2. Prétraitement des données
+Le modèle numérique d'altitude (MNA) offre une représentation numérique du relief d'un territoire généré à partir de données altimétriques (altitude) et planimétriques (rectangulaires ou géographiques).
+
+Les MNA sont obtenu à la suite d'un traitement des données hypsométriques de la Base de données topographiques du Québec à l'échelle de 1/20 000 (BDTQ 20k). Ce traitement consiste à créer un réseau de triangles irréguliers (TIN) en reliant entre eux des points dont l'altitude est connue. Ensuite, l'interpolation de nouvelles valeurs d'altitude entre ces points est réalisée selon une grille régulière. La précision attendue par rapport à la réalité oscille généralement entre 5 et 10 mètres, soit l'équivalent d'une demi-équidistance des courbes de niveau utilisées pour le calcul du modèle. Le MNA standard fournit des valeurs d'altitude qui reposent sur un quadrillage de 0,324 secondes d'arc en coordonnées géographiques, ce qui correspond à une résolution d'environ 10 mètres sur le terrain.
+
+3. Projection géométrique
+Tous les jeux de données altimétriques sont référencés d'après le Système de référence nord-américain de 1983 (NAD83) comme système de référence planimétrique. Toutes les sources de données altimétriques des DNEC ont été projetées suivant un système de référence avec coordonnées géographiques avant leur interpolation suivant le système de référence NAD83.
+
+4. Interpolation des MNA à l'aide de la version 9.1 de ArcGIS
+Le logiciel ArcGIS (version 9.1) a servi à créer les MNA du Québec. Pour chaque pavé de DNEC, l'orle du feuillet correspondant du SNRC était précisé afin de déterminer l'étendue de l'interpolation.
+
+5. Post-traitement des données
+Chacun des MNA a été transcrit au format DNEC à l'aide du logiciel Global Mapper (version 8.1).
+
+6. Inspection
+Le Centre canadien de cartographie et d'observation de la Terre (CCCOT) a effectué une inspection automatisée du produit DNEC final du Québec avant l'archivage et la diffusion du produit au grand public.</procdesc>
+    <procdate>20081215</procdate>
+   </procstep>
+  </lineage>
+ </dataqual>
+ <spdoinfo>
+   <direct>Matrice</direct>
+    <rastinfo>
+     <rasttype>Cellule de quadrillage</rasttype>
+      <rowcount>1201</rowcount>
+      <colcount>2402</colcount>
+    </rastinfo>
+ </spdoinfo>
+ <spref>
+  <horizsys>
+    <geograph>
+     <latres>0.75</latres>
+     <longres>0.75</longres>
+     <geogunit>Secondes décimales</geogunit>
+    </geograph>
+   <geodetic>
+    <horizdn>Système de référence nord-américain de 1983</horizdn>
+    <ellips>Système de référence géodésique de 1980</ellips>
+    <semiaxis>6378137.0</semiaxis>
+    <denflat>298.257222101</denflat>
+   </geodetic>
+  </horizsys>
+  <vertdef>
+   <altsys>
+    <altdatum>SRAGC28 (Système de référence altimétrique géodésique du Canada de 1928)</altdatum>
+    <altres>1.0</altres>
+    <altunits>Mètres</altunits>
+    <altenc>Coordonnées implicites</altenc>
+   </altsys>
+  </vertdef>
+ </spref>
+ <distinfo>
+   <distrib>
+    <cntinfo>
+      <cntorgp>
+       <cntorg>Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre; Centre canadien de cartographie et d'observation de la Terre</cntorg>
+       <cntper>Soutien technique GéoBase</cntper>
+      </cntorgp>
+     <cntaddr>
+      <addrtype>Adresse postale et physique</addrtype>
+      <address>2144, rue King Ouest, bureau 010</address>
+      <city>Sherbrooke</city>
+      <state>Québec</state>
+      <postal>J1J 2E8</postal>
+      <country>Canada</country>
+     </cntaddr>
+     <cntvoice>+01-819-564-5600 / 1-800-661-2638 (Canada et États-Unis)</cntvoice>
+     <cntfax>+01-819-564-5698</cntfax>
+     <cntemail>SoutienGeoBase@rncan.gc.ca</cntemail>
+     <hours>8h30 à 12h00 et 13h00 à 16h30 (heure de l'Est)</hours>
+    </cntinfo>
+   </distrib>
+   <distliab>L'utilisation des données est soumise aux conditions énoncées dans l'Accord de Licence du gouvernement ouvert - Canada (http://donnees.gc.ca/fra/licence-du-gouvernement-ouvert-canada)</distliab>
+   <stdorder>
+     <digform>
+      <digtinfo>
+       <formname>DNEC ASCII</formname>
+      </digtinfo>
+      <digtopt>
+        <onlinopt>
+         <computer>
+           <networka>
+            <networkr>http://www.geobase.ca</networkr>
+           </networka>
+         </computer>
+        </onlinopt>
+      </digtopt>
+     </digform>
+    <fees>Gratuit (ou Sans frais)</fees>
+   </stdorder>
+ </distinfo>
+ <metainfo>
+  <metd>20120501</metd>
+  <metc>
+   <cntinfo>
+     <cntorgp>
+      <cntorg>Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre; Centre canadien de cartographie et d'observation de la Terre</cntorg>
+      <cntper>Soutien technique GéoBase</cntper>
+     </cntorgp>
+    <cntaddr>
+     <addrtype>Adresse postale et physique</addrtype>
+     <address>2144, rue King Ouest, bureau 010</address>
+     <city>Sherbrooke</city>
+     <state>Québec</state>
+     <postal>J1J 2E8</postal>
+     <country>Canada</country>
+    </cntaddr>
+    <cntvoice>+01-819-564-5600 / 1-800-661-2638 (Canada et États-Unis)</cntvoice>
+    <cntfax>+01-819-564-5698</cntfax>
+    <cntemail>SoutienGeoBase@rncan.gc.ca</cntemail>
+    <hours>8h30 à 12h00 et 13h00 à 16h30 (heure de l'Est)</hours>
+   </cntinfo>
+  </metc>
+  <metstdn>Norme du contenu des métadonnées géospatiales numériques du FGDC</metstdn>
+  <metstdv>FGDC-STD-001-1998</metstdv>
+  <metuc>Seul le fichier de métadonnées XML en version anglaise est valide selon le schéma XML (W3C) tel que défini par le FGDC (http://www.fgdc.gov). La version française du fichier de métadonnées XML ne respecte pas les domaines de valeurs, disponibles uniquement en anglais, de certains champs et n'existe donc que pour la présentation des informations. L'usager doit s'assurer de valider les métadonnées en utilisant la version anglaise du schéma XML.</metuc>
+ </metainfo>
+</metadata>

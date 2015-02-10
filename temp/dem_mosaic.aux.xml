@@ -1,0 +1,8 @@
+<PAMDataset>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <NoDataValue>3.27670000000000E+004</NoDataValue>
+  </PAMRasterBand>
+</PAMDataset>

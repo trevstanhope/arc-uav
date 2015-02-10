@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE metadata [
+<!ENTITY nbsp "&#160;">
+<!ENTITY sup2 "&#178;">
+<!ENTITY sigma "&#963;">
+<!ENTITY radic "&#8730;">
+<!ENTITY le "&#8804;">
+<!ENTITY ge "&#8805;">
+]>
+<metadata>
+ <idinfo>
+  <citation>
+   <citeinfo>
+    <origin>Direction générale de l'information géographique, Ministère des Ressources naturelles et de la Faune (MRNF), Québec</origin>
+    <pubdate>20081215</pubdate>
+    <title>021L14, QUÉBEC</title>
+    <edition>2.0</edition>
+    <geoform>raster digital data</geoform>
+    <serinfo>
+     <sername>Canadian Digital Elevation Data</sername>
+     <issue>GEOBASE_3.0</issue>
+    </serinfo>
+    <pubinfo>
+     <pubplace>Sherbrooke, Quebec, Canada</pubplace>
+     <publish>Government of Canada; Natural Resources Canada; Earth Sciences Sector; Canada Centre for Mapping and Earth Observation</publish>
+    </pubinfo>
+    <onlink>http://www.geobase.ca</onlink>
+   </citeinfo>
+  </citation>
+  <descript>
+   <abstract>The Canada Centre for Mapping and Earth Observation (CCMEO) jointly produces the CDED with federal, provincial and territorial government agencies as well as the private sector. 
+
+A CDED consists of an ordered array of ground or reflective surface elevations, recorded in metres, at regularly spaced intervals. The source digital data for CDED is extracted from the hypsographic and hydrographic elements of the National Topographic Data Base (NTDB) at scales of 1:50,000 and 1:250,000, or the Geospatial Data Base (GDB), or various scaled positional data acquired by the provinces and territories, or remotely sensed imagery.</abstract>
+   <purpose>CDED plays the same role as contours and relief shading on conventional paper maps. 
+
+CDED serves as a key primary data in a range of applications critical to achieving sustainable development. These applications include environmental and ecological impact assessments, water flow and water quality analysis, climate change studies, forest regeneration planning and wildlife habitats. 
+
+In addition, CDED can be used in the generation of three-dimensional graphics displaying terrain slope, profiles and line of sight. Non-graphic applications include geoid calculations, terrain modelling, flood simulations and telecommunication studies.</purpose>
+   <supplinf>Canadian Digital Elevation Data, Level 1, Product Specifications, Edition 3.0, April 2007. This product is subject to discrepancies detection process. A discrepancy is defined as any deviation of dataset (or metadata) from the product's Standards and Specifications. For information on detected discrepancies, contact Customer Support Group (geoginfo@NRCan.gc.ca). Minimum Elevation (Z) in meters:  -16 Maximum Elevation (Z) in meters:  641. Elevation Type: ground.</supplinf>
+  </descript>
+  <timeperd>
+   <timeinfo>
+     <rngdates>
+      <begdate>19800301</begdate>
+      <enddate>20060418</enddate>
+     </rngdates>
+   </timeinfo>
+   <current>ground condition</current>
+  </timeperd>
+  <status>
+   <progress>Complete</progress>
+   <update>As needed</update>
+  </status>
+  <spdom>
+   <bounding>
+    <westbc>-71.5</westbc>
+    <eastbc>-71</eastbc>
+    <northbc>47</northbc>
+    <southbc>46.75</southbc>
+   </bounding>
+  </spdom>
+  <keywords>
+   <theme>
+     <themekt>GCMD (Global Change Master Directory)</themekt>
+     <themekey>Earth Science &gt; Land Surface &gt; Topography &gt; Topographical Relief</themekey>
+     <themekey>Earth Science &gt; Land Surface &gt; Topography &gt; Contours</themekey>
+     <themekey>Earth Science &gt; Land Surface &gt; Topography &gt; Terrain Elevation</themekey>
+   </theme>
+   <place>
+     <placekt>None</placekt>
+     <placekey>021L14</placekey>
+     <placekey>Continent &gt; North America &gt; Canada &gt; Quebec</placekey>
+   </place>
+  </keywords>
+  <accconst> Open Government Licence - Canada (http://data.gc.ca/eng/open-government-licence-canada)</accconst>
+  <useconst>Open Government Licence - Canada (http://data.gc.ca/eng/open-government-licence-canada)</useconst>
+  <ptcontac>
+   <cntinfo>
+     <cntorgp>
+      <cntorg>Government of Canada; Natural Resources Canada; Earth Sciences Sector; Canada Centre for Mapping and Earth Observation</cntorg>
+      <cntper>GeoBase Technical Support</cntper>
+     </cntorgp>
+    <cntaddr>
+     <addrtype>mailing and physical</addrtype>
+     <address>2144, King Street West, Suite 010</address>
+     <city>Sherbrooke</city>
+     <state>Quebec</state>
+     <postal>J1J 2E8</postal>
+     <country>Canada</country>
+    </cntaddr>
+    <cntvoice>+01-819-564-5600 / 1-800-661-2638 (Canada and USA)</cntvoice>
+    <cntfax>+01-819-564-5698</cntfax>
+    <cntemail>SupportGeoBase@nrcan.gc.ca</cntemail>
+    <hours>8:30 AM to 12:00 PM and from 1:00 PM to 4:30 PM (Eastern Time)</hours>
+   </cntinfo>
+  </ptcontac>
+ </idinfo>
+ <dataqual>
+  <logic>Canada's coastline, oceans and estuaries at mean sea level, are assigned an elevation value of zero metres. However, the Nova Scotia coastline, oceans, and estuaries are depicted at the mean high water level (MHWL), which has varying elevations across the province. All MHWL elevation values are with reference to the Canadian Geodetic Vertical Datum 1928 (CGVD28). For CDED produced using ground elevations, water bodies are naturally occurring areas of constant elevation (lakes) or having a small slope (rivers). Water bodies are assigned their known elevations or estimated values. Lakes are represented flatter and lower than the surrounding terrain (one elevation per lake) and the shore must be clearly discernible. A water body of unknown elevation is assigned an interpolated elevation that is at least one metre lower than the contour elevation surrounding its shores. Drainage (rivers and streams) must be continuous (no gaps), have constant water flow and a descending order of z-values. For CDED produced using reflective surface elevations, water bodies (lakes) may not have a constant elevation. They may have a small slope to indicate the direction of the water flow. Quality control must assure that the CDED is smooth within the grid and continuous from node to node, except at natural break points such as streams, cliffs, and craters.</logic>
+  <complete>The content of the CDED data sets is constant since the number of elevation points per profile and the number of profiles per cell are constant for all CDED files (1201 x 1201).</complete>
+  <posacc>
+   <horizpa>
+    <horizpar>Accuracy evaluation is related to the data source(s) used to generate the CDED. Data source: Base de données topographiques du Québec (BDTQ).
+
+CONTOURS:
+- 1:20,000 scale contours were generated from 1:40,000 aerial photography using photogrammetry;
+- 90% of all well-defined geographic features are situated within 4 metres of their true position at 1:20,000 scale (source photography 1:40,000).
+
+SPOT HEIGHTS:
+- On mountain tops and in depressions;
+- On communication routes and intersections;
+- On bridges;
+- Water levels on all lakes;
+- On all other identifiable points on the ground such as prominent rock outcrops, small clearings in the bush, and other cleared areas;
+- In quarries, borrow pits, open pit mines: additional points at 300 metres if one of the axis exceeds 500 metres;
+- On flat ground, the interval between these entities is from 1000 metres in rural areas and 500 metres in urban areas;
+- True elevation is defined as the coordinates which would be obtained from positioning with high order ground methods.
+
+The metric quality of the geographic object is high; therefore all altimetric spot heights are accurate to within 4 metres of their true position at 1:20,000 scale.
+
+HYDROGRAPHY
+- Hydrographic features can include man-made and natural waterbody features;
+- Hydrographic network features (i.e. lakes and rivers) with an average width of less than 20 metres at 1:20,000 scale are represented as linear features. Hydrographic network features with an average width greater than 20 metres at 1:20,000 scale are considered bodies of water and represented as polygon features. The polygons were identified separately as rivers, reservoirs or lakes;
+- Islands were constructed as polygons within water bodies;
+- The junction of two bodies of water (lakes vs rivers) is digitized so that a virtual shoreline separates the polygonal features;
+- True position is defined as the coordinates which would be obtained from positioning with high order ground methods;
+- 90% of all well-defined geographic objects are within 4 metres of their true position at 1:20,000 scale (source photography at 1:40,000).</horizpar>
+    <qhorizpa>
+     <horizpav>4</horizpav>
+     <horizpae>Circular Map Accuracy Standards (CMAS) for BDTQ - contours sources from Ministère des Ressources naturelles et Faune du Québec - DGIG.</horizpae>
+    </qhorizpa>
+    <qhorizpa>
+     <horizpav>4</horizpav>
+     <horizpae>Circular Map Accuracy Standards (CMAS) for BDTQ - hydrography sources from Ministère des Ressources naturelles et Faune du Québec - DGIG.</horizpae>
+    </qhorizpa>
+    <qhorizpa>
+     <horizpav>4</horizpav>
+     <horizpae>Circular Map Accuracy Standards (CMAS) for BDTQ - lake elevations sources from Ministère des Ressources naturelles et Faune du Québec - DGIG.</horizpae>
+    </qhorizpa>
+    <qhorizpa>
+     <horizpav>4</horizpav>
+     <horizpae>Circular Map Accuracy Standards (CMAS) for BDTQ - spot heights sources from Ministère des Ressources naturelles et Faune du Québec - DGIG.</horizpae>
+    </qhorizpa>
+   </horizpa>
+   <vertacc>
+    <vertaccr>The vertical accuracy of the CDED is evaluated using ground control points from the Aerial Survey Data Base (ASDB). The ASDB was produced by the Mapping Information Branch of Natural Resources Canada. The ASDB contains a large number of control points located across Canada that have been established through the process of aerotriangulation, a rigorous photogrammetric network densification adjustment method, using geodetic points established by the Geodetic Survey Division of NRCan.
+The primary purpose of ASDB is to provide a homogeneous network of ground control points for the absolute orientation of the stereoscopic photogrammetric models used for the production of the 1/50 000 National Topographic Series (NTS) maps and the derived digital topographic and cartographic products.
+The CDED accuracy will be expressed as a linear error with a confidence level of 90% and obtained from the following formula:
+LE90 = sMNE * 1.6449</vertaccr>
+    <qvertpa>
+     <vertaccv>4.1</vertaccv>
+     <vertacce>Linear Map Accuracy Standards (LMAS) for the elevation values. The Vertical Positional Accuracy was obtained from direct measurements using ASDB control points.</vertacce>
+    </qvertpa>
+   </vertacc>
+  </posacc>
+  <lineage>
+   <srcinfo>
+    <srccite>
+     <citeinfo>
+      <origin>Direction générale de l'information géographique, Ministère des Ressources naturelles et de la Faune (MRNF), Québec</origin>
+      <pubdate>20070401</pubdate>
+      <title>BDTQ</title>
+      <edition>0.0</edition>
+      <geoform>vector digital data</geoform>
+      <serinfo>
+       <sername>Base de données topographiques du Québec (BDTQ) - Lake elevations</sername>
+       <issue>Unknown</issue>
+      </serinfo>
+     </citeinfo>
+    </srccite>
+    <srcscale>20000</srcscale>
+    <typesrc>disc</typesrc>
+    <srctime>
+     <timeinfo>
+       <rngdates>
+        <begdate>19800301</begdate>
+        <enddate>20060418</enddate>
+       </rngdates>
+     </timeinfo>
+     <srccurr>publication date</srccurr>
+    </srctime>
+    <srccitea>BDTQ-ALTI-LAC-BDTQ-0.0</srccitea>
+    <srccontr>Lake elevations</srccontr>
+   </srcinfo>
+   <srcinfo>
+    <srccite>
+     <citeinfo>
+      <origin>Direction générale de l'information géographique, Ministère des Ressources naturelles et de la Faune (MRNF), Québec</origin>
+      <pubdate>20070401</pubdate>
+      <title>BDTQ</title>
+      <edition>0.0</edition>
+      <geoform>vector digital data</geoform>
+      <serinfo>
+       <sername>Base de données topographiques du Québec (BDTQ) - Contours</sername>
+       <issue>Unknown</issue>
+      </serinfo>
+     </citeinfo>
+    </srccite>
+    <srcscale>20000</srcscale>
+    <typesrc>disc</typesrc>
+    <srctime>
+     <timeinfo>
+       <rngdates>
+        <begdate>19800301</begdate>
+        <enddate>20060418</enddate>
+       </rngdates>
+     </timeinfo>
+     <srccurr>publication date</srccurr>
+    </srctime>
+    <srccitea>BDTQ-COURBES-BDTQ-0.0</srccitea>
+    <srccontr>Contours</srccontr>
+   </srcinfo>
+   <srcinfo>
+    <srccite>
+     <citeinfo>
+      <origin>Direction générale de l'information géographique, Ministère des Ressources naturelles et de la Faune (MRNF), Québec</origin>
+      <pubdate>20070401</pubdate>
+      <title>BDTQ</title>
+      <edition>0.0</edition>
+      <geoform>vector digital data</geoform>
+      <serinfo>
+       <sername>Base de données topographiques du Québec (BDTQ) - Hydrography</sername>
+       <issue>Unknown</issue>
+      </serinfo>
+     </citeinfo>
+    </srccite>
+    <srcscale>20000</srcscale>
+    <typesrc>disc</typesrc>
+    <srctime>
+     <timeinfo>
+       <rngdates>
+        <begdate>19800301</begdate>
+        <enddate>20060418</enddate>
+       </rngdates>
+     </timeinfo>
+     <srccurr>publication date</srccurr>
+    </srctime>
+    <srccitea>BDTQ-HYDRO-BDTQ-0.0</srccitea>
+    <srccontr>Hydrography</srccontr>
+   </srcinfo>
+   <srcinfo>
+    <srccite>
+     <citeinfo>
+      <origin>Direction générale de l'information géographique, Ministère des Ressources naturelles et de la Faune (MRNF), Québec</origin>
+      <pubdate>20070401</pubdate>
+      <title>BDTQ</title>
+      <edition>0.0</edition>
+      <geoform>vector digital data</geoform>
+      <serinfo>
+       <sername>Base de données topographiques du Québec (BDTQ) - Spot heights</sername>
+       <issue>Unknown</issue>
+      </serinfo>
+     </citeinfo>
+    </srccite>
+    <srcscale>20000</srcscale>
+    <typesrc>disc</typesrc>
+    <srctime>
+     <timeinfo>
+       <rngdates>
+        <begdate>19800301</begdate>
+        <enddate>20060418</enddate>
+       </rngdates>
+     </timeinfo>
+     <srccurr>publication date</srccurr>
+    </srctime>
+    <srccitea>BDTQ-POINTS-COTE-BDTQ-0.0</srccitea>
+    <srccontr>Spot heights</srccontr>
+   </srcinfo>
+   <procstep>
+    <procdesc>Quebec CDED were created within the framework of Quebec's Ministère des Ressources naturelles et de la faunes (MRNF), Carto-Nord Project, using 1:20,000 source data acquired under the BDTQ (Base de données topographique du Québec) mapping program.
+
+1. Altimetric Source Data
+Base de données topographique du Québec (BDTQ)
+Four main sources of data from the BDTQ were used to develop the CDED product. They are: 1) contours, 2) spot heights, 3) hydrographic network and 4) lake elevations derived from spot heights and hydrographic features of the BDTQ. Geometric and altimetric elements (contours at 10 m intervals) were derived from 1:40,000 scale aerial photography using photogrammetry.
+
+2. Data Pre-processing
+The DEM offers a digital representation of the relief of an area, generated from altimetric (elevation) and planimetric (rectangular or geographic) data.
+
+The DEM is obtained as a result of processing 1:20,000 BDTQ hypsometric data. This process consists of creating a network of irregular triangles (TIN) and connecting the TIN by using common points whose elevations are known. New elevation values are then interpolated between these points using a regular grid.
+
+The expected accuracy is approximately 5 to 10 metres, that is to say half the contour interval used for the calculation of the model.
+
+The standard DEM provides elevations that are tied to a grid of 0.324 arc seconds in geographical coordinates, which corresponds to a resolution of approximately 10 metres on the ground.
+
+3. Geometric projection
+All elevation datasets are referenced using North American Datum 1983 (NAD83) as the standard horizontal datum. All CDED elevation data sources were projected to a geographical coordinate reference system prior to being interpolated with NAD83 datum being maintained.
+
+4. DEM Interpolation Using ArcGIS version 9.1
+Quebec DEM were created using ArcGIS (version 9.1). NTS neatline margins were specified for each CDED tile to identify the extents of the interpolation.
+
+5. Post-processing
+Each DEM was transcribed into CDED format using Global Mapper (version 8.1).
+
+6. Inspection
+Canada Centre for Mapping and Earth Observation (CCMEO) automatically inspected the final Quebec CDED product prior to archiving and distributing the product to the public.</procdesc>
+    <procdate>20081215</procdate>
+   </procstep>
+  </lineage>
+ </dataqual>
+ <spdoinfo>
+   <direct>Raster</direct>
+    <rastinfo>
+     <rasttype>Grid Cell</rasttype>
+      <rowcount>1201</rowcount>
+      <colcount>2402</colcount>
+    </rastinfo>
+ </spdoinfo>
+ <spref>
+  <horizsys>
+    <geograph>
+     <latres>0.75</latres>
+     <longres>0.75</longres>
+     <geogunit>Decimal seconds</geogunit>
+    </geograph>
+   <geodetic>
+    <horizdn>North American Datum of 1983</horizdn>
+    <ellips>Geodetic Reference System 80</ellips>
+    <semiaxis>6378137.0</semiaxis>
+    <denflat>298.257222101</denflat>
+   </geodetic>
+  </horizsys>
+  <vertdef>
+   <altsys>
+    <altdatum>CGVD28 (Canadian Geodetic Vertical Datum 1928)</altdatum>
+    <altres>1.0</altres>
+    <altunits>meters</altunits>
+    <altenc>Implicit coordinate</altenc>
+   </altsys>
+  </vertdef>
+ </spref>
+ <distinfo>
+   <distrib>
+    <cntinfo>
+      <cntorgp>
+       <cntorg>Government of Canada; Natural Resources Canada; Earth Sciences Sector; Canada Centre for Mapping and Earth Observation</cntorg>
+       <cntper>GeoBase Technical Support</cntper>
+      </cntorgp>
+     <cntaddr>
+      <addrtype>mailing and physical</addrtype>
+      <address>2144, King Street West, Suite 010</address>
+      <city>Sherbrooke</city>
+      <state>Quebec</state>
+      <postal>J1J 2E8</postal>
+      <country>Canada</country>
+     </cntaddr>
+     <cntvoice>+01-819-564-5600 / 1-800-661-2638 (Canada and USA)</cntvoice>
+     <cntfax>+01-819-564-5698</cntfax>
+     <cntemail>SupportGeoBase@nrcan.gc.ca</cntemail>
+     <hours>8:30 AM to 12:00 PM and from 1:00 PM to 4:30 PM (Eastern Time)</hours>
+    </cntinfo>
+   </distrib>
+   <distliab>Data are subject to the Open Government Licence - Canada (http://data.gc.ca/eng/open-government-licence-canada)</distliab>
+   <stdorder>
+     <digform>
+      <digtinfo>
+       <formname>CDED ASCII</formname>
+      </digtinfo>
+      <digtopt>
+        <onlinopt>
+         <computer>
+           <networka>
+            <networkr>http://www.geobase.ca</networkr>
+           </networka>
+         </computer>
+        </onlinopt>
+      </digtopt>
+     </digform>
+    <fees>Free (or No cost)</fees>
+   </stdorder>
+ </distinfo>
+ <metainfo>
+  <metd>20120501</metd>
+  <metc>
+   <cntinfo>
+     <cntorgp>
+      <cntorg>Government of Canada; Natural Resources Canada; Earth Sciences Sector; Canada Centre for Mapping and Earth Observation</cntorg>
+      <cntper>GeoBase Technical Support</cntper>
+     </cntorgp>
+    <cntaddr>
+     <addrtype>mailing and physical</addrtype>
+     <address>2144, King Street West, Suite 010</address>
+     <city>Sherbrooke</city>
+     <state>Quebec</state>
+     <postal>J1J 2E8</postal>
+     <country>Canada</country>
+    </cntaddr>
+    <cntvoice>+01-819-564-5600 / 1-800-661-2638 (Canada and USA)</cntvoice>
+    <cntfax>+01-819-564-5698</cntfax>
+    <cntemail>SupportGeoBase@nrcan.gc.ca</cntemail>
+    <hours>8:30 AM to 12:00 PM and from 1:00 PM to 4:30 PM (Eastern Time)</hours>
+   </cntinfo>
+  </metc>
+  <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  <metstdv>FGDC-STD-001-1998</metstdv>
+  <metuc>Only the English version of the metadata XML file is valid according to XML schema (W3C) as defined by FGDC (http://www.fgdc.gov). French version of the metadata XML file is not valid as it does not always respect domain values for all fields which are sometimes only available in English. The French version is issued mainly for display purposes. User must ensure to validate metadata against the XML schema English version.</metuc>
+ </metainfo>
+</metadata>

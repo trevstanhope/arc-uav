@@ -1,0 +1,1939 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:essm="http://www.cits.rncan.gc.ca/ess/essMetadataTools/essXsd/essm" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/gmd/gmd.xsd">
+    <gmd:fileIdentifier>
+      <gco:CharacterString>ea92a588-4357-444f-b1ff-caa5b0b147cb</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+      <gco:CharacterString>eng; CAN</gco:CharacterString>
+    </gmd:language>
+    <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeListValue="RI_458" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95">utf8; utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:parentIdentifier>
+      <gco:CharacterString>3A537B2D-7058-FCED-8D0B-76452EC9D01F</gco:CharacterString>
+    </gmd:parentIdentifier>
+    <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeListValue="RI_622" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108">dataset; jeuDonnées</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+        <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+          <gco:CharacterString>Government of Canada; Natural Resources Canada</gco:CharacterString>
+          <gmd:PT_FreeText>
+            <gmd:textGroup>
+              <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada; Ressources naturelles Canada</gmd:LocalisedCharacterString>
+            </gmd:textGroup>
+          </gmd:PT_FreeText>
+        </gmd:organisationName>
+        <gmd:positionName xsi:type="gmd:PT_FreeText_PropertyType">
+          <gco:CharacterString>Director, ESS/CCMEO</gco:CharacterString>
+          <gmd:PT_FreeText>
+            <gmd:textGroup>
+              <gmd:LocalisedCharacterString locale="#FR">Directeur, SST/CCCOT</gmd:LocalisedCharacterString>
+            </gmd:textGroup>
+          </gmd:PT_FreeText>
+        </gmd:positionName>
+        <gmd:role>
+          <gmd:CI_RoleCode codeListValue="RI_410" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">owner; propriétaire</gmd:CI_RoleCode>
+        </gmd:role>
+      </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+        <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+          <gco:CharacterString>Government of Canada; Natural Resources Canada; Earth Sciences Sector; Canada Centre for Mapping and Earth Observation</gco:CharacterString>
+          <gmd:PT_FreeText>
+            <gmd:textGroup>
+              <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre; Centre canadien de cartographie et d'observation de la Terre</gmd:LocalisedCharacterString>
+            </gmd:textGroup>
+          </gmd:PT_FreeText>
+        </gmd:organisationName>
+        <gmd:contactInfo>
+          <gmd:CI_Contact>
+            <gmd:address>
+              <gmd:CI_Address>
+                <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>SupportGeoBase@nrcan.gc.ca</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">SoutienGeoBase@rncan.gc.ca</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:electronicMailAddress>
+              </gmd:CI_Address>
+            </gmd:address>
+          </gmd:CI_Contact>
+        </gmd:contactInfo>
+        <gmd:role>
+          <gmd:CI_RoleCode codeListValue="RI_414" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">custodian; conservateur</gmd:CI_RoleCode>
+        </gmd:role>
+      </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+        <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+          <gco:CharacterString>Government of Canada; Natural Resources Canada; Earth Sciences Sector; Canada Centre for Mapping and Earth Observation</gco:CharacterString>
+          <gmd:PT_FreeText>
+            <gmd:textGroup>
+              <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre; Centre canadien de cartographie et d'observation de la Terre</gmd:LocalisedCharacterString>
+            </gmd:textGroup>
+          </gmd:PT_FreeText>
+        </gmd:organisationName>
+        <gmd:positionName xsi:type="gmd:PT_FreeText_PropertyType">
+          <gco:CharacterString>GeoBase Technical Support</gco:CharacterString>
+          <gmd:PT_FreeText>
+            <gmd:textGroup>
+              <gmd:LocalisedCharacterString locale="#FR">Soutien technique GéoBase</gmd:LocalisedCharacterString>
+            </gmd:textGroup>
+          </gmd:PT_FreeText>
+        </gmd:positionName>
+        <gmd:contactInfo>
+          <gmd:CI_Contact>
+            <gmd:phone>
+              <gmd:CI_Telephone>
+                <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>voice; 1 (819) 5645600</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">voix; 1 (819) 5645600</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:voice>
+                <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>voice; 1 (800) 6612638</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">voix; 1 (800) 6612638</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:voice>
+                <gmd:facsimile>
+                  <gco:CharacterString>1 (819) 5645698</gco:CharacterString>
+                </gmd:facsimile>
+              </gmd:CI_Telephone>
+            </gmd:phone>
+            <gmd:address>
+              <gmd:CI_Address>
+                <gmd:deliveryPoint xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>physical; 2144; King Street West; ; 010</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">physique; 2144; rue King Ouest; ; 010</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:deliveryPoint>
+                <gmd:city>
+                  <gco:CharacterString>Sherbrooke</gco:CharacterString>
+                </gmd:city>
+                <gmd:administrativeArea>
+                  <gco:CharacterString>Québec</gco:CharacterString>
+                </gmd:administrativeArea>
+                <gmd:postalCode>
+                  <gco:CharacterString>J1J 2E8</gco:CharacterString>
+                </gmd:postalCode>
+                <gmd:country>
+                  <gco:CharacterString>CANADA</gco:CharacterString>
+                </gmd:country>
+                <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>SupportGeoBase@nrcan.gc.ca</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">SoutienGeoBase@rncan.gc.ca</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:electronicMailAddress>
+              </gmd:CI_Address>
+            </gmd:address>
+            <gmd:onlineResource>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>www.geobase.ca</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>HTTP</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:function>
+                  <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+                </gmd:function>
+              </gmd:CI_OnlineResource>
+            </gmd:onlineResource>
+            <gmd:hoursOfService>
+              <gco:CharacterString>8:30/12:00; 13:00/16:30</gco:CharacterString>
+            </gmd:hoursOfService>
+          </gmd:CI_Contact>
+        </gmd:contactInfo>
+        <gmd:role>
+          <gmd:CI_RoleCode codeListValue="RI_414" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">pointOfContact; contact</gmd:CI_RoleCode>
+        </gmd:role>
+      </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+      <gco:Date>2012-05-01</gco:Date>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName xsi:type="gmd:PT_FreeText_PropertyType">
+      <gco:CharacterString>North American Profile of ISO 19115:2003 – Geographic information – Metadata (NAP-Metadata)</gco:CharacterString>
+      <gmd:PT_FreeText>
+        <gmd:textGroup>
+          <gmd:LocalisedCharacterString locale="#FR">Profil nord-américain de la norme ISO 19115:2003 – Information géographique – Métadonnées (NAP-Metadata)</gmd:LocalisedCharacterString>
+        </gmd:textGroup>
+      </gmd:PT_FreeText>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+      <gco:CharacterString>CAN/CGSB-171.100-2009</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI xsi:type="gmd:PT_FreeText_PropertyType">
+      <gco:CharacterString>http://geogratis.gc.ca/api/en/nrcan-rncan/ess-sst/38034eef-15a1-4724-8caa-00f5b2194d1a</gco:CharacterString>
+      <gmd:PT_FreeText>
+        <gmd:textGroup>
+          <gmd:LocalisedCharacterString locale="#FR">http://geogratis.gc.ca/api/fr/nrcan-rncan/ess-sst/38034eef-15a1-4724-8caa-00f5b2194d1a</gmd:LocalisedCharacterString>
+        </gmd:textGroup>
+      </gmd:PT_FreeText>
+    </gmd:dataSetURI>
+    <gmd:locale>
+      <gmd:PT_Locale id="FR">
+        <gmd:languageCode>
+          <gmd:LanguageCode codeListValue="fra" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_116">French; Français</gmd:LanguageCode>
+        </gmd:languageCode>
+        <gmd:country>
+          <gmd:Country codeListValue="CAN" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_117">Canada; Canada</gmd:Country>
+        </gmd:country>
+        <gmd:characterEncoding>
+          <gmd:MD_CharacterSetCode codeListValue="RI_458" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95">utf8; utf8</gmd:MD_CharacterSetCode>
+        </gmd:characterEncoding>
+      </gmd:PT_Locale>
+    </gmd:locale>
+    <gmd:spatialRepresentationInfo>
+      <gmd:MD_GridSpatialRepresentation>
+        <gmd:numberOfDimensions>
+          <gco:Integer>2</gco:Integer>
+        </gmd:numberOfDimensions>
+        <gmd:axisDimensionProperties>
+          <gmd:MD_Dimension>
+            <gmd:dimensionName>
+              <gmd:MD_DimensionNameTypeCode codeListValue="RI_496" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_98">row; rangée</gmd:MD_DimensionNameTypeCode>
+            </gmd:dimensionName>
+            <gmd:dimensionSize>
+              <gco:Integer>1201</gco:Integer>
+            </gmd:dimensionSize>
+          </gmd:MD_Dimension>
+        </gmd:axisDimensionProperties>
+        <gmd:axisDimensionProperties>
+          <gmd:MD_Dimension>
+            <gmd:dimensionName>
+              <gmd:MD_DimensionNameTypeCode codeListValue="RI_497" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_98">column; colonne</gmd:MD_DimensionNameTypeCode>
+            </gmd:dimensionName>
+            <gmd:dimensionSize>
+              <gco:Integer>2402</gco:Integer>
+            </gmd:dimensionSize>
+          </gmd:MD_Dimension>
+        </gmd:axisDimensionProperties>
+        <gmd:cellGeometry>
+          <gmd:MD_CellGeometryCode codeListValue="RI_451" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_94">point; point</gmd:MD_CellGeometryCode>
+        </gmd:cellGeometry>
+        <gmd:transformationParameterAvailability>
+          <gco:Boolean>true</gco:Boolean>
+        </gmd:transformationParameterAvailability>
+      </gmd:MD_GridSpatialRepresentation>
+    </gmd:spatialRepresentationInfo>
+    <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem>
+        <gmd:referenceSystemIdentifier>
+          <gmd:RS_Identifier>
+            <gmd:authority>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>EPSG Geodetic Parameter Registry</gco:CharacterString>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2010-11-02</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeListValue="RI_368" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">revision; révision</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:organisationName>
+                      <gco:CharacterString>OGP Geomatics Committee</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeListValue="RI_409" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">custodian; conservateur</gmd:CI_RoleCode>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:citedResponsibleParty>
+              </gmd:CI_Citation>
+            </gmd:authority>
+            <gmd:code>
+              <gco:CharacterString>EPSG::4269</gco:CharacterString>
+            </gmd:code>
+            <gmd:codeSpace>
+              <gco:CharacterString>http://www.epsg-registry.org/</gco:CharacterString>
+            </gmd:codeSpace>
+            <gmd:version>
+              <gco:CharacterString>7.6</gco:CharacterString>
+            </gmd:version>
+          </gmd:RS_Identifier>
+        </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+    </gmd:referenceSystemInfo>
+    <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem>
+        <gmd:referenceSystemIdentifier>
+          <gmd:RS_Identifier>
+            <gmd:authority>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>EPSG Geodetic Parameter Registry</gco:CharacterString>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2010-11-02</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeListValue="RI_368" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">revision; révision</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:organisationName>
+                      <gco:CharacterString>OGP Geomatics Committee</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeListValue="RI_409" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">custodian; conservateur</gmd:CI_RoleCode>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:citedResponsibleParty>
+              </gmd:CI_Citation>
+            </gmd:authority>
+            <gmd:code>
+              <gco:CharacterString>EPSG::5713</gco:CharacterString>
+            </gmd:code>
+            <gmd:codeSpace>
+              <gco:CharacterString>http://www.epsg-registry.org/</gco:CharacterString>
+            </gmd:codeSpace>
+            <gmd:version>
+              <gco:CharacterString>7.6</gco:CharacterString>
+            </gmd:version>
+          </gmd:RS_Identifier>
+        </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+    </gmd:referenceSystemInfo>
+    <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+        <gmd:citation>
+          <gmd:CI_Citation>
+            <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Canadian Digital Elevation Data - 021L14</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Données numériques d'élévation du Canada - 021L14</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:title>
+            <gmd:alternateTitle>
+              <gco:CharacterString>QUÉBEC</gco:CharacterString>
+            </gmd:alternateTitle>
+            <gmd:date>
+              <gmd:CI_Date>
+                <gmd:date>
+                  <gco:Date>2008-12-15</gco:Date>
+                </gmd:date>
+                <gmd:dateType>
+                  <gmd:CI_DateTypeCode codeListValue="RI_367" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">publication; publication</gmd:CI_DateTypeCode>
+                </gmd:dateType>
+              </gmd:CI_Date>
+            </gmd:date>
+            <gmd:edition>
+              <gco:CharacterString>2.0</gco:CharacterString>
+            </gmd:edition>
+            <gmd:citedResponsibleParty>
+              <gmd:CI_ResponsibleParty>
+                <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>Government of Canada; Natural Resources Canada; Earth Sciences Sector; Canada Centre for Mapping and Earth Observation</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre; Centre canadien de cartographie et d'observation de la Terre</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:organisationName>
+                <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                    <gmd:address>
+                      <gmd:CI_Address>
+                        <gmd:city>
+                          <gco:CharacterString>Sherbrooke</gco:CharacterString>
+                        </gmd:city>
+                        <gmd:administrativeArea>
+                          <gco:CharacterString>Québec</gco:CharacterString>
+                        </gmd:administrativeArea>
+                        <gmd:country>
+                          <gco:CharacterString>CANADA</gco:CharacterString>
+                        </gmd:country>
+                        <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                          <gco:CharacterString>SupportGeoBase@nrcan.gc.ca</gco:CharacterString>
+                          <gmd:PT_FreeText>
+                            <gmd:textGroup>
+                              <gmd:LocalisedCharacterString locale="#FR">SupportGeoBase@nrcan.gc.ca</gmd:LocalisedCharacterString>
+                            </gmd:textGroup>
+                          </gmd:PT_FreeText>
+                        </gmd:electronicMailAddress>
+                      </gmd:CI_Address>
+                    </gmd:address>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role>
+                  <gmd:CI_RoleCode codeListValue="RI_417" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">publisher; éditeur</gmd:CI_RoleCode>
+                </gmd:role>
+              </gmd:CI_ResponsibleParty>
+            </gmd:citedResponsibleParty>
+            <gmd:citedResponsibleParty>
+              <gmd:CI_ResponsibleParty>
+                <gmd:organisationName>
+                  <gco:CharacterString>Direction générale de l'information géographique, Ministère des Ressources naturelles et de la Faune (MRNF), Québec</gco:CharacterString>
+                </gmd:organisationName>
+                <gmd:role>
+                  <gmd:CI_RoleCode codeListValue="RI_413" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">originator; auteur</gmd:CI_RoleCode>
+                </gmd:role>
+              </gmd:CI_ResponsibleParty>
+            </gmd:citedResponsibleParty>
+            <gmd:presentationForm>
+              <gmd:CI_PresentationFormCode codeListValue="RI_393" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_89">modelDigital; modèleNumérique</gmd:CI_PresentationFormCode>
+            </gmd:presentationForm>
+            <gmd:series>
+              <gmd:CI_Series>
+                <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>Canadian Digital Elevation Data</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">Données numériques d'élévation du Canada</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:name>
+                <gmd:issueIdentification>
+                  <gco:CharacterString>021L14</gco:CharacterString>
+                </gmd:issueIdentification>
+              </gmd:CI_Series>
+            </gmd:series>
+          </gmd:CI_Citation>
+        </gmd:citation>
+        <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+          <gco:CharacterString>The Canada Centre for Mapping and Earth Observation (CCMEO) jointly produces the CDED with federal, provincial and territorial government agencies as well as the private sector.   A CDED consists of an ordered array of ground or reflective surface elevations, recorded in metres, at regularly spaced intervals. The source digital data for CDED is extracted from the hypsographic and hydrographic elements of the National Topographic Data Base (NTDB) at scales of 1:50,000 and 1:250,000, or the Geospatial Data Base (GDB), or various scaled positional data acquired by the provinces and territories, or remotely sensed imagery.</gco:CharacterString>
+          <gmd:PT_FreeText>
+            <gmd:textGroup>
+              <gmd:LocalisedCharacterString locale="#FR">Le Centre canadien de cartographie et d'observation de la Terre (CCCOT) produit les DNEC de concert avec des organismes fédéraux, provinciaux et territoriaux ainsi qu'avec le secteur privé.   Les DNEC consistent en un tableau ordonné de valeurs d'élévation au sol ou de surface (enregistrées en mètres) interpolées à des points régulièrement espacés. Les données sources numériques des DNEC peuvent être extraites des éléments hypsographiques et hydrographiques de la Base nationale de données topographiques (BNDT) aux échelles de 1/50 000 et 1/250 000, ou de la Base de données géospatiales (BDG), ou de données de position, à diverses échelles, acquises des provinces et territoires ou d'imageries de télédétection.</gmd:LocalisedCharacterString>
+            </gmd:textGroup>
+          </gmd:PT_FreeText>
+        </gmd:abstract>
+        <gmd:purpose xsi:type="gmd:PT_FreeText_PropertyType">
+          <gco:CharacterString>CDED plays the same role as contours and relief shading on conventional paper maps.CDED serves as a key primary data in a range of applications critical to achieving sustainable development. These applications include environmental and ecological impact assessments, water flow and water quality analysis, climate change studies, forest regeneration planning and wildlife habitats.In addition, CDED can be used in the generation of three-dimensional graphics displaying terrain slope, profiles and line of sight. Non-graphic applications include geoid calculations, terrain modelling, flood simulations and telecommunication studies.</gco:CharacterString>
+          <gmd:PT_FreeText>
+            <gmd:textGroup>
+              <gmd:LocalisedCharacterString locale="#FR">Les DNEC jouent le même rôle que les courbes de niveau et la représentation du relief par estompage sur les cartes de papier traditionnelles.Les DNEC servent de données primaires clés dans toute une gamme d'applications critiques pour le développement durable. Ces applications englobent notamment les évaluations des incidences environnementales et écologiques, les analyses de l'écoulement et de la qualité de l'eau, les études sur le changement climatique, la planification de la régénération des forêts et l'étude des habitats fauniques.Les DNEC peuvent, en outre, servir à la génération de représentations graphiques tridimensionnelles montrant la pente du terrain, de profils et de lignes de visée. Parmi les applications non graphiques qu'elles permettent, mentionnons les calculs du géoïde, la modélisation du terrain, les simulations de crues et des études dans le domaine des télécommunications.</gmd:LocalisedCharacterString>
+            </gmd:textGroup>
+          </gmd:PT_FreeText>
+        </gmd:purpose>
+        <gmd:status>
+          <gmd:MD_ProgressCode codeListValue="RI_593" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_106">completed; complété</gmd:MD_ProgressCode>
+        </gmd:status>
+        <gmd:pointOfContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Government of Canada; Natural Resources Canada; Earth Sciences Sector; Canada Centre for Mapping and Earth Observation</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre; Centre canadien de cartographie et d'observation de la Terre</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:organisationName>
+            <gmd:positionName xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>GeoBase Technical Support</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Soutien technique GéoBase</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:positionName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:phone>
+                  <gmd:CI_Telephone>
+                    <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                      <gco:CharacterString>voice; 1 (819) 5645600</gco:CharacterString>
+                      <gmd:PT_FreeText>
+                        <gmd:textGroup>
+                          <gmd:LocalisedCharacterString locale="#FR">voix; 1 (819) 5645600</gmd:LocalisedCharacterString>
+                        </gmd:textGroup>
+                      </gmd:PT_FreeText>
+                    </gmd:voice>
+                    <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                      <gco:CharacterString>voice; 1 (800) 6612638</gco:CharacterString>
+                      <gmd:PT_FreeText>
+                        <gmd:textGroup>
+                          <gmd:LocalisedCharacterString locale="#FR">voix; 1 (800) 6612638</gmd:LocalisedCharacterString>
+                        </gmd:textGroup>
+                      </gmd:PT_FreeText>
+                    </gmd:voice>
+                    <gmd:facsimile>
+                      <gco:CharacterString>1 (819) 5645698</gco:CharacterString>
+                    </gmd:facsimile>
+                  </gmd:CI_Telephone>
+                </gmd:phone>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:deliveryPoint xsi:type="gmd:PT_FreeText_PropertyType">
+                      <gco:CharacterString>physical; 2144; King Street West; ; 010</gco:CharacterString>
+                      <gmd:PT_FreeText>
+                        <gmd:textGroup>
+                          <gmd:LocalisedCharacterString locale="#FR">physique; 2144; rue King Ouest; ; 010</gmd:LocalisedCharacterString>
+                        </gmd:textGroup>
+                      </gmd:PT_FreeText>
+                    </gmd:deliveryPoint>
+                    <gmd:city>
+                      <gco:CharacterString>Sherbrooke</gco:CharacterString>
+                    </gmd:city>
+                    <gmd:administrativeArea>
+                      <gco:CharacterString>Québec</gco:CharacterString>
+                    </gmd:administrativeArea>
+                    <gmd:postalCode>
+                      <gco:CharacterString>J1J 2E8</gco:CharacterString>
+                    </gmd:postalCode>
+                    <gmd:country>
+                      <gco:CharacterString>CANADA</gco:CharacterString>
+                    </gmd:country>
+                    <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                      <gco:CharacterString>SupportGeoBase@nrcan.gc.ca</gco:CharacterString>
+                      <gmd:PT_FreeText>
+                        <gmd:textGroup>
+                          <gmd:LocalisedCharacterString locale="#FR">SoutienGeoBase@rncan.gc.ca</gmd:LocalisedCharacterString>
+                        </gmd:textGroup>
+                      </gmd:PT_FreeText>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+                <gmd:onlineResource>
+                  <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                      <gmd:URL>www.geobase.ca</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:protocol>
+                      <gco:CharacterString>HTTP</gco:CharacterString>
+                    </gmd:protocol>
+                    <gmd:function>
+                      <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+                    </gmd:function>
+                  </gmd:CI_OnlineResource>
+                </gmd:onlineResource>
+                <gmd:hoursOfService>
+                  <gco:CharacterString>8:30/12:00; 13:00/16:30</gco:CharacterString>
+                </gmd:hoursOfService>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeListValue="RI_414" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">pointOfContact; contact</gmd:CI_RoleCode>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:pointOfContact>
+        <gmd:resourceMaintenance>
+          <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency>
+              <gmd:MD_MaintenanceFrequencyCode codeListValue="RI_540" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102">asNeeded; auBesoin</gmd:MD_MaintenanceFrequencyCode>
+            </gmd:maintenanceAndUpdateFrequency>
+            <gmd:updateScope>
+              <gmd:MD_ScopeCode codeListValue="RI_622" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108">dataset; jeuDonnées</gmd:MD_ScopeCode>
+            </gmd:updateScope>
+          </gmd:MD_MaintenanceInformation>
+        </gmd:resourceMaintenance>
+        <gmd:graphicOverview>
+          <gmd:MD_BrowseGraphic>
+            <gmd:fileName>
+              <gco:CharacterString>http://ftp2.cits.rncan.gc.ca/pub/dnec/50k/images/dnec_021l14.jpg</gco:CharacterString>
+            </gmd:fileName>
+            <gmd:fileDescription>
+              <gco:CharacterString>Display created for Geogratis API</gco:CharacterString>
+            </gmd:fileDescription>
+          </gmd:MD_BrowseGraphic>
+        </gmd:graphicOverview>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>CDED</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">DNEC</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>021L14</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeListValue="RI_529" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101">product; produit</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Earth Sciences</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Sciences de la Terre</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeListValue="RI_524" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101">discipline; discipline</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Earth sciences</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Sciences de la terre</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:keyword>
+            <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Cartography</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Cartographie</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:keyword>
+            <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Geography</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Géographie</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:keyword>
+            <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Geographic data</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Données géographiques</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:keyword>
+            <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Geographic information systems</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Système d'information géographique</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:keyword>
+            <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Geomatics</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Géomatique</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:keyword>
+            <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Topography</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Topographie</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeListValue="RI_528" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101">theme; thème</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>Government of Canada Core Subject Thesaurus</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">Thésaurus des sujets de base du gouvernement du Canada</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2011-05-16</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeListValue="RI_367" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">publication; publication</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                      <gco:CharacterString>Library and Archives Canada</gco:CharacterString>
+                      <gmd:PT_FreeText>
+                        <gmd:textGroup>
+                          <gmd:LocalisedCharacterString locale="#FR">Bibliothèque et Archives Canada</gmd:LocalisedCharacterString>
+                        </gmd:textGroup>
+                      </gmd:PT_FreeText>
+                    </gmd:organisationName>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeListValue="RI_409" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">custodian; conservateur</gmd:CI_RoleCode>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:citedResponsibleParty>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>LAND SURFACE &gt; TOPOGRAPHY &gt; TERRAIN ELEVATION</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">surface terrestre &gt; topographie &gt; altitude du relief</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:keyword>
+            <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>LAND SURFACE &gt; TOPOGRAPHY &gt; TOPOGRAPHICAL RELIEF</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">surface terrestre &gt; topographie &gt; relief topographique</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:keyword>
+            <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>LAND SURFACE &gt; TOPOGRAPHY &gt; CONTOURS</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">surface terrestre &gt; topographie &gt; courbes</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeListValue="RI_528" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101">theme; thème</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>The Global Change Master Directory (GCMD)</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">Traduction française des thèmes du Global Change Master Directory</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:title>
+                <gmd:alternateTitle>
+                  <gco:CharacterString>GCMD</gco:CharacterString>
+                </gmd:alternateTitle>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2009-05</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeListValue="RI_367" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">publication; publication</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:edition>
+                  <gco:CharacterString>9.8.1</gco:CharacterString>
+                </gmd:edition>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:organisationName>
+                      <gco:CharacterString>NASA/Goddard Space Flight Center</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeListValue="RI_409" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">custodian; conservateur</gmd:CI_RoleCode>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:citedResponsibleParty>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gco:CharacterString>021L14</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>21L14</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Quebec</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Québec</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeListValue="RI_525" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101">place; endroit</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>None</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">Aucun</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date/>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeListValue="RI_369" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">notAvailable; nonDisponible</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                      <gco:CharacterString>Government of Canada, Natural Resources Canada, Earth Sciences Sector</gco:CharacterString>
+                      <gmd:PT_FreeText>
+                        <gmd:textGroup>
+                          <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada, Ressources naturelles Canada, Secteur des sciences de la Terre</gmd:LocalisedCharacterString>
+                        </gmd:textGroup>
+                      </gmd:PT_FreeText>
+                    </gmd:organisationName>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeListValue="RI_409" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">custodian; conservateur</gmd:CI_RoleCode>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:citedResponsibleParty>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:resourceConstraints>
+          <gmd:MD_LegalConstraints>
+            <gmd:useConstraints>
+              <gmd:MD_RestrictionCode codeListValue="RI_602" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107">copyright; droitAuteur</gmd:MD_RestrictionCode>
+            </gmd:useConstraints>
+            <gmd:otherConstraints xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>© Department of Natural Resources Canada. All rights reserved.</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">© Le ministère des Ressources naturelles Canada. Tous droits réservés</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:otherConstraints>
+          </gmd:MD_LegalConstraints>
+        </gmd:resourceConstraints>
+        <gmd:resourceConstraints>
+          <gmd:MD_LegalConstraints>
+            <gmd:useConstraints>
+              <gmd:MD_RestrictionCode codeListValue="RI_606" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107">license; licence</gmd:MD_RestrictionCode>
+            </gmd:useConstraints>
+            <gmd:otherConstraints xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Open Government Licence - Canada (http://data.gc.ca/eng/open-government-licence-canada)</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Licence du gouvernement ouvert - Canada (http://donnees.gc.ca/fra/licence-du-gouvernement-ouvert-canada)</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:otherConstraints>
+          </gmd:MD_LegalConstraints>
+        </gmd:resourceConstraints>
+        <gmd:spatialRepresentationType>
+          <gmd:MD_SpatialRepresentationTypeCode codeListValue="RI_636" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_109">grid; grille</gmd:MD_SpatialRepresentationTypeCode>
+        </gmd:spatialRepresentationType>
+        <gmd:spatialResolution>
+          <gmd:MD_Resolution>
+            <gmd:equivalentScale>
+              <gmd:MD_RepresentativeFraction>
+                <gmd:denominator>
+                  <gco:Integer>50000</gco:Integer>
+                </gmd:denominator>
+              </gmd:MD_RepresentativeFraction>
+            </gmd:equivalentScale>
+          </gmd:MD_Resolution>
+        </gmd:spatialResolution>
+        <gmd:language>
+          <gco:CharacterString>eng; CAN</gco:CharacterString>
+        </gmd:language>
+        <gmd:language>
+          <gco:CharacterString>fra; CAN</gco:CharacterString>
+        </gmd:language>
+        <gmd:characterSet>
+          <gmd:MD_CharacterSetCode codeListValue="RI_458" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95">utf8; utf8</gmd:MD_CharacterSetCode>
+        </gmd:characterSet>
+        <gmd:topicCategory>
+          <gmd:MD_TopicCategoryCode>elevation</gmd:MD_TopicCategoryCode>
+        </gmd:topicCategory>
+        <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>ground condition</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">condition au sol</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:description>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicBoundingBox>
+                <gmd:extentTypeCode>
+                  <gco:Boolean>1</gco:Boolean>
+                </gmd:extentTypeCode>
+                <gmd:westBoundLongitude>
+                  <gco:Decimal>-71.5</gco:Decimal>
+                </gmd:westBoundLongitude>
+                <gmd:eastBoundLongitude>
+                  <gco:Decimal>-71</gco:Decimal>
+                </gmd:eastBoundLongitude>
+                <gmd:southBoundLatitude>
+                  <gco:Decimal>46.75</gco:Decimal>
+                </gmd:southBoundLatitude>
+                <gmd:northBoundLatitude>
+                  <gco:Decimal>47</gco:Decimal>
+                </gmd:northBoundLatitude>
+              </gmd:EX_GeographicBoundingBox>
+            </gmd:geographicElement>
+            <gmd:temporalElement>
+              <gmd:EX_TemporalExtent>
+                <gmd:extent>
+                  <gml:TimePeriod gml:id="tp1">
+                    <gml:begin>
+                      <gml:TimeInstant gml:id="ti1">
+                        <gml:timePosition>1980-03-01</gml:timePosition>
+                      </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                      <gml:TimeInstant gml:id="ti2">
+                        <gml:timePosition>2006-04-18</gml:timePosition>
+                      </gml:TimeInstant>
+                    </gml:end>
+                  </gml:TimePeriod>
+                </gmd:extent>
+              </gmd:EX_TemporalExtent>
+            </gmd:temporalElement>
+          </gmd:EX_Extent>
+        </gmd:extent>
+        <gmd:supplementalInformation xsi:type="gmd:PT_FreeText_PropertyType">
+          <gco:CharacterString>Canadian Digital Elevation Data, Level 1, Product Specifications, Edition 3.0, April 2007. This product is subject to discrepancies detection process. A discrepancy is defined as any deviation of dataset (or metadata) from the product's Standards and Specifications. For information on detected discrepancies, contact Customer Support Group (geoginfo@NRCan.gc.ca). Minimum Elevation (Z) in meters:  -16 Maximum Elevation (Z) in meters:  641. Elevation Type: ground.</gco:CharacterString>
+          <gmd:PT_FreeText>
+            <gmd:textGroup>
+              <gmd:LocalisedCharacterString locale="#FR">Données numériques d'élévation du Canada, niveau 1, Spécifications de produit, Édition 3.0, avril 2007. Ce produit est soumis à un processus de détection d'anomalies. Le terme anomalie désigne toute observation qui rend un jeu de données (ou métadonnées) non conforme aux normes et spécifications du produit. Pour de plus amples informations sur les anomalies détectées, contacter l'équipe de soutien aux usagers (geoginfo@NRCan.gc.ca).  Élévation (Z) minimale en mètres :  -16 Élévation (Z) maximale en mètres :  641. Type d'élévation : au sol.</gmd:LocalisedCharacterString>
+            </gmd:textGroup>
+          </gmd:PT_FreeText>
+        </gmd:supplementalInformation>
+      </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:contentInfo xlink:href="http://geobase.ca/doc/specs/pdf/GeoBase_product_specs_CDED1_en.pdf" xlink:title="Canadian Digital Elevation Data, Product Specifications"/>
+    <gmd:contentInfo xlink:href="http://geobase.ca/doc/specs/pdf/GeoBase_specs_produit_DNEC1_fr.pdf" xlink:title="Spécification du produit, des Données numériques d'élévation du Canada"/>
+    <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+        <gmd:distributionFormat>
+          <gmd:MD_Format>
+            <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>CDED ASCII</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">DNEC ASCII</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:name>
+            <gmd:version>
+              <gco:CharacterString>1997</gco:CharacterString>
+            </gmd:version>
+            <gmd:specification>
+              <gco:CharacterString>Digital Elevation Model Standards (http://rmmcweb.cr.usgs.gov/nmpstds/demstds.html)</gco:CharacterString>
+            </gmd:specification>
+          </gmd:MD_Format>
+        </gmd:distributionFormat>
+        <gmd:distributor>
+          <gmd:MD_Distributor>
+            <gmd:distributorContact>
+              <gmd:CI_ResponsibleParty>
+                <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>Government of Canada; Natural Resources Canada; Earth Sciences Sector; Canada Centre for Mapping and Earth Observation</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre; Centre canadien de cartographie et d'observation de la Terre</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:organisationName>
+                <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                    <gmd:phone>
+                      <gmd:CI_Telephone>
+                        <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                          <gco:CharacterString>voice; 1 (819) 5645600</gco:CharacterString>
+                          <gmd:PT_FreeText>
+                            <gmd:textGroup>
+                              <gmd:LocalisedCharacterString locale="#FR">voix; 1 (819) 5645600</gmd:LocalisedCharacterString>
+                            </gmd:textGroup>
+                          </gmd:PT_FreeText>
+                        </gmd:voice>
+                        <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                          <gco:CharacterString>voice; 1 (800) 6612638</gco:CharacterString>
+                          <gmd:PT_FreeText>
+                            <gmd:textGroup>
+                              <gmd:LocalisedCharacterString locale="#FR">voix; 1 (800) 6612638</gmd:LocalisedCharacterString>
+                            </gmd:textGroup>
+                          </gmd:PT_FreeText>
+                        </gmd:voice>
+                        <gmd:facsimile>
+                          <gco:CharacterString>1 (819) 5645698</gco:CharacterString>
+                        </gmd:facsimile>
+                      </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                      <gmd:CI_Address>
+                        <gmd:deliveryPoint xsi:type="gmd:PT_FreeText_PropertyType">
+                          <gco:CharacterString>physical; 2144; King Street West; ; 010</gco:CharacterString>
+                          <gmd:PT_FreeText>
+                            <gmd:textGroup>
+                              <gmd:LocalisedCharacterString locale="#FR">physique; 2144; rue King Ouest; ; 010</gmd:LocalisedCharacterString>
+                            </gmd:textGroup>
+                          </gmd:PT_FreeText>
+                        </gmd:deliveryPoint>
+                        <gmd:city>
+                          <gco:CharacterString>Sherbrooke</gco:CharacterString>
+                        </gmd:city>
+                        <gmd:administrativeArea>
+                          <gco:CharacterString>Québec</gco:CharacterString>
+                        </gmd:administrativeArea>
+                        <gmd:postalCode>
+                          <gco:CharacterString>J1J 2E8</gco:CharacterString>
+                        </gmd:postalCode>
+                        <gmd:country>
+                          <gco:CharacterString>CANADA</gco:CharacterString>
+                        </gmd:country>
+                        <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                          <gco:CharacterString>geoginfo@nrcan.gc.ca</gco:CharacterString>
+                          <gmd:PT_FreeText>
+                            <gmd:textGroup>
+                              <gmd:LocalisedCharacterString locale="#FR">geoginfo@rncan.gc.ca</gmd:LocalisedCharacterString>
+                            </gmd:textGroup>
+                          </gmd:PT_FreeText>
+                        </gmd:electronicMailAddress>
+                      </gmd:CI_Address>
+                    </gmd:address>
+                    <gmd:hoursOfService>
+                      <gco:CharacterString>8:30/12:00; 13:00/16:30</gco:CharacterString>
+                    </gmd:hoursOfService>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role>
+                  <gmd:CI_RoleCode codeListValue="RI_412" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">distributor; distributeur</gmd:CI_RoleCode>
+                </gmd:role>
+              </gmd:CI_ResponsibleParty>
+            </gmd:distributorContact>
+            <gmd:distributionOrderProcess>
+              <gmd:MD_StandardOrderProcess>
+                <gmd:fees xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>Free for download</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">Gratuit pour les télécharger</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:fees>
+              </gmd:MD_StandardOrderProcess>
+            </gmd:distributionOrderProcess>
+          </gmd:MD_Distributor>
+        </gmd:distributor>
+        <gmd:transferOptions>
+          <gmd:MD_DigitalTransferOptions>
+            <gmd:transferSize>
+              <gco:Real>1.720124</gco:Real>
+            </gmd:transferSize>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://ftp2.cits.rncan.gc.ca/pub/geobase/official/cded/50k_dem/021/021l14.zip</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>HTTP</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>CDED ASCII</gco:CharacterString>
+                </gmd:name>
+                <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>Download file in CDED ASCII through HTTP</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier CDED ASCII via HTTP</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:description>
+                <gmd:function>
+                  <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+                </gmd:function>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+          </gmd:MD_DigitalTransferOptions>
+        </gmd:transferOptions>
+        <gmd:transferOptions>
+          <gmd:MD_DigitalTransferOptions>
+            <gmd:transferSize>
+              <gco:Real>0.201875</gco:Real>
+            </gmd:transferSize>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://geobase.ca/doc/specs/pdf/GeoBase_product_specs_CDED1_3_0.pdf</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>HTTP</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>PDF</gco:CharacterString>
+                </gmd:name>
+                <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>Download file  Canadian Digital Elevation Data, Product Specifications  through HTTP</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier  Canadian Digital Elevation Data, Product Specifications  via HTTP</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:description>
+                <gmd:function>
+                  <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+                </gmd:function>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+          </gmd:MD_DigitalTransferOptions>
+        </gmd:transferOptions>
+        <gmd:transferOptions>
+          <gmd:MD_DigitalTransferOptions>
+            <gmd:transferSize>
+              <gco:Real>0.218885</gco:Real>
+            </gmd:transferSize>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://geobase.ca/doc/specs/pdf/GeoBase_specs_produit_DNEC1_3_0.pdf</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>HTTP</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>PDF</gco:CharacterString>
+                </gmd:name>
+                <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>Download file  Spécification du produit, des Données numériques d'élévation du Canada  through HTTP</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier  Spécification du produit, des Données numériques d'élévation du Canada  via HTTP</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:description>
+                <gmd:function>
+                  <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+                </gmd:function>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+          </gmd:MD_DigitalTransferOptions>
+        </gmd:transferOptions>
+      </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+        <gmd:scope>
+          <gmd:DQ_Scope>
+            <gmd:level>
+              <gmd:MD_ScopeCode codeListValue="RI_622" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108">dataset; jeuDonnées</gmd:MD_ScopeCode>
+            </gmd:level>
+          </gmd:DQ_Scope>
+        </gmd:scope>
+        <gmd:report>
+          <gmd:DQ_CompletenessCommission>
+            <gmd:result>
+              <gmd:DQ_ConformanceResult>
+                <gmd:specification xlink:title="GeoBase Canadian Digital Elevation Data, Level 1 - Product Specifications"/>
+                <gmd:explanation xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>The content of the CDED data sets is constant since the number of elevation points per profile and the number of profiles per cell are constant for all CDED files (1201 x 1201).</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">Le contenu des jeux de données DNEC est constant étant donné que le nombre de points d'élévation par profil et que le nombre de profils par cellule sont constants pour tous les fichiers DNEC (1201 x 1201).</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:explanation>
+                <gmd:pass>
+                  <gco:Boolean>true</gco:Boolean>
+                </gmd:pass>
+              </gmd:DQ_ConformanceResult>
+            </gmd:result>
+          </gmd:DQ_CompletenessCommission>
+        </gmd:report>
+        <gmd:report>
+          <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+            <gmd:measureDescription xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Accuracy evaluation is related to the data source(s) used to generate the CDED. Data source: Base de données topographiques du Québec (BDTQ).  CONTOURS: - 1:20,000 scale contours were generated from 1:40,000 aerial photography using photogrammetry; - 90% of all well-defined geographic features are situated within 4 metres of their true position at 1:20,000 scale (source photography 1:40,000).  SPOT HEIGHTS: - On mountain tops and in depressions; - On communication routes and intersections; - On bridges; - Water levels on all lakes; - On all other identifiable points on the ground such as prominent rock outcrops, small clearings in the bush, and other cleared areas; - In quarries, borrow pits, open pit mines: additional points at 300 metres if one of the axis exceeds 500 metres; - On flat ground, the interval between these entities is from 1000 metres in rural areas and 500 metres in urban areas; - True elevation is defined as the coordinates which would be obtained from positioning with high order ground methods.  The metric quality of the geographic object is high; therefore all altimetric spot heights are accurate to within 4 metres of their true position at 1:20,000 scale.  HYDROGRAPHY - Hydrographic features can include man-made and natural waterbody features; - Hydrographic network features (i.e. lakes and rivers) with an average width of less than 20 metres at 1:20,000 scale are represented as linear features. Hydrographic network features with an average width greater than 20 metres at 1:20,000 scale are considered bodies of water and represented as polygon features. The polygons were identified separately as rivers, reservoirs or lakes; - Islands were constructed as polygons within water bodies; - The junction of two bodies of water (lakes vs rivers) is digitized so that a virtual shoreline separates the polygonal features; - True position is defined as the coordinates which would be obtained from positioning with high order ground methods; - 90% of all well-defined geographic objects are within 4 metres of their true position at 1:20,000 scale (source photography at 1:40,000).</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">L'évaluation de la précision est fonction de(s) source(s) de données utilisée(s) lors de la génération de la DNEC. Source de données : Base de données topographiques du Québec (BDTQ).  COURBES DE NIVEAU - Les courbes de niveau à l'échelle 1/20 000 ont été produites en utilisant de la photogrammétrie avec photographie aérienne à l'échelle 1/40 000; - 90% de toutes les objets géographiques bien définies se situent à moins de 4 m, à l'échelle de 1/20 000 (photographie source à l'échelle de 1/40 000), de leur position réelle.  POINTS COTÉS : - Sur le sommet des montagnes et dans les dépressions; - Sur les voies de communication et des intersections; - Sur les ponts; - Niveaux de l'eau de tous les lacs; - En tout autre point identifiable au sol comme les affleurements rocheux importants, les petites clairières en forêt et autre surface dénudé; - Dans les carrières, banc d'emprunt, mine à ciel ouvert : semis au 300 mètres si l'un des axes excède 500 mètres; - En terrain plat, l'intervalle de ces entités est de 1000 mètres en milieu rural et de 500 mètres en milieu urbain; - L'altitude réelle est définie comme étant les coordonnées qui seraient obtenues par positionnement au sol d'après des méthodes d'ordre supérieur. La qualité métrique de l'objet géographique est élevée, ainsi l'erreur sur les points cotés altimétriques n'excède pas 4 mètres à l'échelle 1/20 000.  HYDROGRAPHIE - Les entités hydrographiques peuvent comprendre des plans d'eau artificiels et naturels; - Les entités du réseau hydrographique (c.-à-d. lacs et rivières) d'une largeur moyenne inférieur à 20 m à l'échelle 1/20 000, sont représentées comme des entités linéaires. Les entités du réseau hydrographique de largeur supérieur à 20 m, à l'échelle 1/20 000, sont considérées comme des plans d'eau et représentées par des entités polygonales. Les polygones ont été identifiés séparément comme des cours d'eau, des réservoirs ou des lacs; - Les îles ont été constituées sous forme de polygones à l'intérieur des plans d'eau; - La jonction de deux plans d'eau (lacs vs cours d'eau) est numérisée de façon à ce qu'une ligne virtuelle de plan d'eau sépare les entités polygonales; - La position réelle est définie comme étant les coordonnées qui seraient obtenues par positionnement au sol d'après des méthodes d'ordre supérieur; - 90% de toutes les objets géographiques bien définies se situent à moins de 4 m, à l'échelle de 1/20 000 (photographie source à l'échelle de 1/40 000), de leur position réelle.</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:measureDescription>
+            <gmd:evaluationMethodDescription xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Circular Map Accuracy Standards (CMAS) for BDTQ - contours sources from Ministère des Ressources naturelles et Faune du Québec - DGIG.</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Précision circulaire cartographique normalisée (PCCN) pour BDTQ - source des courbes de niveau du Ministère des Ressources naturelles et Faune du Québec - DGIG.</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:evaluationMethodDescription>
+            <gmd:result>
+              <gmd:DQ_QuantitativeResult>
+                <gmd:valueUnit>
+                  <gml:BaseUnit gml:id="HORIZ_EXPL_DNEC_MRNF.CMAS.BDTQ-COURBES_1">
+                    <gml:identifier codeSpace="http://www.bipm.org/en/si/base_units/">metre</gml:identifier>
+                    <gml:name codeSpace="http://www.bipm.org/en/si/base_units/">metre</gml:name>
+                    <gml:quantityType>length</gml:quantityType>
+                    <gml:catalogSymbol codeSpace="http://www.bipm.org/en/si/base_units/">m</gml:catalogSymbol>
+                    <gml:unitsSystem xlink:href="http://www.bipm.fr/en/si"/>
+                  </gml:BaseUnit>
+                </gmd:valueUnit>
+                <gmd:value>
+                  <gco:Record>
+                    <gco:Distance uom="m">4</gco:Distance>
+                  </gco:Record>
+                </gmd:value>
+              </gmd:DQ_QuantitativeResult>
+            </gmd:result>
+          </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+        </gmd:report>
+        <gmd:report>
+          <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+            <gmd:measureDescription xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Accuracy evaluation is related to the data source(s) used to generate the CDED. Data source: Base de données topographiques du Québec (BDTQ).  CONTOURS: - 1:20,000 scale contours were generated from 1:40,000 aerial photography using photogrammetry; - 90% of all well-defined geographic features are situated within 4 metres of their true position at 1:20,000 scale (source photography 1:40,000).  SPOT HEIGHTS: - On mountain tops and in depressions; - On communication routes and intersections; - On bridges; - Water levels on all lakes; - On all other identifiable points on the ground such as prominent rock outcrops, small clearings in the bush, and other cleared areas; - In quarries, borrow pits, open pit mines: additional points at 300 metres if one of the axis exceeds 500 metres; - On flat ground, the interval between these entities is from 1000 metres in rural areas and 500 metres in urban areas; - True elevation is defined as the coordinates which would be obtained from positioning with high order ground methods.  The metric quality of the geographic object is high; therefore all altimetric spot heights are accurate to within 4 metres of their true position at 1:20,000 scale.  HYDROGRAPHY - Hydrographic features can include man-made and natural waterbody features; - Hydrographic network features (i.e. lakes and rivers) with an average width of less than 20 metres at 1:20,000 scale are represented as linear features. Hydrographic network features with an average width greater than 20 metres at 1:20,000 scale are considered bodies of water and represented as polygon features. The polygons were identified separately as rivers, reservoirs or lakes; - Islands were constructed as polygons within water bodies; - The junction of two bodies of water (lakes vs rivers) is digitized so that a virtual shoreline separates the polygonal features; - True position is defined as the coordinates which would be obtained from positioning with high order ground methods; - 90% of all well-defined geographic objects are within 4 metres of their true position at 1:20,000 scale (source photography at 1:40,000).</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">L'évaluation de la précision est fonction de(s) source(s) de données utilisée(s) lors de la génération de la DNEC. Source de données : Base de données topographiques du Québec (BDTQ).  COURBES DE NIVEAU - Les courbes de niveau à l'échelle 1/20 000 ont été produites en utilisant de la photogrammétrie avec photographie aérienne à l'échelle 1/40 000; - 90% de toutes les objets géographiques bien définies se situent à moins de 4 m, à l'échelle de 1/20 000 (photographie source à l'échelle de 1/40 000), de leur position réelle.  POINTS COTÉS : - Sur le sommet des montagnes et dans les dépressions; - Sur les voies de communication et des intersections; - Sur les ponts; - Niveaux de l'eau de tous les lacs; - En tout autre point identifiable au sol comme les affleurements rocheux importants, les petites clairières en forêt et autre surface dénudé; - Dans les carrières, banc d'emprunt, mine à ciel ouvert : semis au 300 mètres si l'un des axes excède 500 mètres; - En terrain plat, l'intervalle de ces entités est de 1000 mètres en milieu rural et de 500 mètres en milieu urbain; - L'altitude réelle est définie comme étant les coordonnées qui seraient obtenues par positionnement au sol d'après des méthodes d'ordre supérieur. La qualité métrique de l'objet géographique est élevée, ainsi l'erreur sur les points cotés altimétriques n'excède pas 4 mètres à l'échelle 1/20 000.  HYDROGRAPHIE - Les entités hydrographiques peuvent comprendre des plans d'eau artificiels et naturels; - Les entités du réseau hydrographique (c.-à-d. lacs et rivières) d'une largeur moyenne inférieur à 20 m à l'échelle 1/20 000, sont représentées comme des entités linéaires. Les entités du réseau hydrographique de largeur supérieur à 20 m, à l'échelle 1/20 000, sont considérées comme des plans d'eau et représentées par des entités polygonales. Les polygones ont été identifiés séparément comme des cours d'eau, des réservoirs ou des lacs; - Les îles ont été constituées sous forme de polygones à l'intérieur des plans d'eau; - La jonction de deux plans d'eau (lacs vs cours d'eau) est numérisée de façon à ce qu'une ligne virtuelle de plan d'eau sépare les entités polygonales; - La position réelle est définie comme étant les coordonnées qui seraient obtenues par positionnement au sol d'après des méthodes d'ordre supérieur; - 90% de toutes les objets géographiques bien définies se situent à moins de 4 m, à l'échelle de 1/20 000 (photographie source à l'échelle de 1/40 000), de leur position réelle.</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:measureDescription>
+            <gmd:evaluationMethodDescription xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Circular Map Accuracy Standards (CMAS) for BDTQ - hydrography sources from Ministère des Ressources naturelles et Faune du Québec - DGIG.</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Précision circulaire cartographique normalisée (PCCN) pour BDTQ - source de l'hydrographie du Ministère des Ressources naturelles et Faune du Québec - DGIG.</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:evaluationMethodDescription>
+            <gmd:result>
+              <gmd:DQ_QuantitativeResult>
+                <gmd:valueUnit>
+                  <gml:BaseUnit gml:id="HORIZ_EXPL_DNEC_MRNF.CMAS.BDTQ-HYDRO_2">
+                    <gml:identifier codeSpace="http://www.bipm.org/en/si/base_units/">metre</gml:identifier>
+                    <gml:name codeSpace="http://www.bipm.org/en/si/base_units/">metre</gml:name>
+                    <gml:quantityType>length</gml:quantityType>
+                    <gml:catalogSymbol codeSpace="http://www.bipm.org/en/si/base_units/">m</gml:catalogSymbol>
+                    <gml:unitsSystem xlink:href="http://www.bipm.fr/en/si"/>
+                  </gml:BaseUnit>
+                </gmd:valueUnit>
+                <gmd:value>
+                  <gco:Record>
+                    <gco:Distance uom="m">4</gco:Distance>
+                  </gco:Record>
+                </gmd:value>
+              </gmd:DQ_QuantitativeResult>
+            </gmd:result>
+          </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+        </gmd:report>
+        <gmd:report>
+          <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+            <gmd:measureDescription xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Accuracy evaluation is related to the data source(s) used to generate the CDED. Data source: Base de données topographiques du Québec (BDTQ).  CONTOURS: - 1:20,000 scale contours were generated from 1:40,000 aerial photography using photogrammetry; - 90% of all well-defined geographic features are situated within 4 metres of their true position at 1:20,000 scale (source photography 1:40,000).  SPOT HEIGHTS: - On mountain tops and in depressions; - On communication routes and intersections; - On bridges; - Water levels on all lakes; - On all other identifiable points on the ground such as prominent rock outcrops, small clearings in the bush, and other cleared areas; - In quarries, borrow pits, open pit mines: additional points at 300 metres if one of the axis exceeds 500 metres; - On flat ground, the interval between these entities is from 1000 metres in rural areas and 500 metres in urban areas; - True elevation is defined as the coordinates which would be obtained from positioning with high order ground methods.  The metric quality of the geographic object is high; therefore all altimetric spot heights are accurate to within 4 metres of their true position at 1:20,000 scale.  HYDROGRAPHY - Hydrographic features can include man-made and natural waterbody features; - Hydrographic network features (i.e. lakes and rivers) with an average width of less than 20 metres at 1:20,000 scale are represented as linear features. Hydrographic network features with an average width greater than 20 metres at 1:20,000 scale are considered bodies of water and represented as polygon features. The polygons were identified separately as rivers, reservoirs or lakes; - Islands were constructed as polygons within water bodies; - The junction of two bodies of water (lakes vs rivers) is digitized so that a virtual shoreline separates the polygonal features; - True position is defined as the coordinates which would be obtained from positioning with high order ground methods; - 90% of all well-defined geographic objects are within 4 metres of their true position at 1:20,000 scale (source photography at 1:40,000).</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">L'évaluation de la précision est fonction de(s) source(s) de données utilisée(s) lors de la génération de la DNEC. Source de données : Base de données topographiques du Québec (BDTQ).  COURBES DE NIVEAU - Les courbes de niveau à l'échelle 1/20 000 ont été produites en utilisant de la photogrammétrie avec photographie aérienne à l'échelle 1/40 000; - 90% de toutes les objets géographiques bien définies se situent à moins de 4 m, à l'échelle de 1/20 000 (photographie source à l'échelle de 1/40 000), de leur position réelle.  POINTS COTÉS : - Sur le sommet des montagnes et dans les dépressions; - Sur les voies de communication et des intersections; - Sur les ponts; - Niveaux de l'eau de tous les lacs; - En tout autre point identifiable au sol comme les affleurements rocheux importants, les petites clairières en forêt et autre surface dénudé; - Dans les carrières, banc d'emprunt, mine à ciel ouvert : semis au 300 mètres si l'un des axes excède 500 mètres; - En terrain plat, l'intervalle de ces entités est de 1000 mètres en milieu rural et de 500 mètres en milieu urbain; - L'altitude réelle est définie comme étant les coordonnées qui seraient obtenues par positionnement au sol d'après des méthodes d'ordre supérieur. La qualité métrique de l'objet géographique est élevée, ainsi l'erreur sur les points cotés altimétriques n'excède pas 4 mètres à l'échelle 1/20 000.  HYDROGRAPHIE - Les entités hydrographiques peuvent comprendre des plans d'eau artificiels et naturels; - Les entités du réseau hydrographique (c.-à-d. lacs et rivières) d'une largeur moyenne inférieur à 20 m à l'échelle 1/20 000, sont représentées comme des entités linéaires. Les entités du réseau hydrographique de largeur supérieur à 20 m, à l'échelle 1/20 000, sont considérées comme des plans d'eau et représentées par des entités polygonales. Les polygones ont été identifiés séparément comme des cours d'eau, des réservoirs ou des lacs; - Les îles ont été constituées sous forme de polygones à l'intérieur des plans d'eau; - La jonction de deux plans d'eau (lacs vs cours d'eau) est numérisée de façon à ce qu'une ligne virtuelle de plan d'eau sépare les entités polygonales; - La position réelle est définie comme étant les coordonnées qui seraient obtenues par positionnement au sol d'après des méthodes d'ordre supérieur; - 90% de toutes les objets géographiques bien définies se situent à moins de 4 m, à l'échelle de 1/20 000 (photographie source à l'échelle de 1/40 000), de leur position réelle.</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:measureDescription>
+            <gmd:evaluationMethodDescription xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Circular Map Accuracy Standards (CMAS) for BDTQ - lake elevations sources from Ministère des Ressources naturelles et Faune du Québec - DGIG.</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Précision circulaire cartographique normalisée (PCCN) pour BDTQ - sources des altitudes de lac du Ministère des Ressources naturelles et Faune du Québec - DGIG.</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:evaluationMethodDescription>
+            <gmd:result>
+              <gmd:DQ_QuantitativeResult>
+                <gmd:valueUnit>
+                  <gml:BaseUnit gml:id="HORIZ_EXPL_DNEC_MRNF.CMAS.BDTQ-ALTI-LAC_3">
+                    <gml:identifier codeSpace="http://www.bipm.org/en/si/base_units/">metre</gml:identifier>
+                    <gml:name codeSpace="http://www.bipm.org/en/si/base_units/">metre</gml:name>
+                    <gml:quantityType>length</gml:quantityType>
+                    <gml:catalogSymbol codeSpace="http://www.bipm.org/en/si/base_units/">m</gml:catalogSymbol>
+                    <gml:unitsSystem xlink:href="http://www.bipm.fr/en/si"/>
+                  </gml:BaseUnit>
+                </gmd:valueUnit>
+                <gmd:value>
+                  <gco:Record>
+                    <gco:Distance uom="m">4</gco:Distance>
+                  </gco:Record>
+                </gmd:value>
+              </gmd:DQ_QuantitativeResult>
+            </gmd:result>
+          </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+        </gmd:report>
+        <gmd:report>
+          <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+            <gmd:measureDescription xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Accuracy evaluation is related to the data source(s) used to generate the CDED. Data source: Base de données topographiques du Québec (BDTQ).  CONTOURS: - 1:20,000 scale contours were generated from 1:40,000 aerial photography using photogrammetry; - 90% of all well-defined geographic features are situated within 4 metres of their true position at 1:20,000 scale (source photography 1:40,000).  SPOT HEIGHTS: - On mountain tops and in depressions; - On communication routes and intersections; - On bridges; - Water levels on all lakes; - On all other identifiable points on the ground such as prominent rock outcrops, small clearings in the bush, and other cleared areas; - In quarries, borrow pits, open pit mines: additional points at 300 metres if one of the axis exceeds 500 metres; - On flat ground, the interval between these entities is from 1000 metres in rural areas and 500 metres in urban areas; - True elevation is defined as the coordinates which would be obtained from positioning with high order ground methods.  The metric quality of the geographic object is high; therefore all altimetric spot heights are accurate to within 4 metres of their true position at 1:20,000 scale.  HYDROGRAPHY - Hydrographic features can include man-made and natural waterbody features; - Hydrographic network features (i.e. lakes and rivers) with an average width of less than 20 metres at 1:20,000 scale are represented as linear features. Hydrographic network features with an average width greater than 20 metres at 1:20,000 scale are considered bodies of water and represented as polygon features. The polygons were identified separately as rivers, reservoirs or lakes; - Islands were constructed as polygons within water bodies; - The junction of two bodies of water (lakes vs rivers) is digitized so that a virtual shoreline separates the polygonal features; - True position is defined as the coordinates which would be obtained from positioning with high order ground methods; - 90% of all well-defined geographic objects are within 4 metres of their true position at 1:20,000 scale (source photography at 1:40,000).</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">L'évaluation de la précision est fonction de(s) source(s) de données utilisée(s) lors de la génération de la DNEC. Source de données : Base de données topographiques du Québec (BDTQ).  COURBES DE NIVEAU - Les courbes de niveau à l'échelle 1/20 000 ont été produites en utilisant de la photogrammétrie avec photographie aérienne à l'échelle 1/40 000; - 90% de toutes les objets géographiques bien définies se situent à moins de 4 m, à l'échelle de 1/20 000 (photographie source à l'échelle de 1/40 000), de leur position réelle.  POINTS COTÉS : - Sur le sommet des montagnes et dans les dépressions; - Sur les voies de communication et des intersections; - Sur les ponts; - Niveaux de l'eau de tous les lacs; - En tout autre point identifiable au sol comme les affleurements rocheux importants, les petites clairières en forêt et autre surface dénudé; - Dans les carrières, banc d'emprunt, mine à ciel ouvert : semis au 300 mètres si l'un des axes excède 500 mètres; - En terrain plat, l'intervalle de ces entités est de 1000 mètres en milieu rural et de 500 mètres en milieu urbain; - L'altitude réelle est définie comme étant les coordonnées qui seraient obtenues par positionnement au sol d'après des méthodes d'ordre supérieur. La qualité métrique de l'objet géographique est élevée, ainsi l'erreur sur les points cotés altimétriques n'excède pas 4 mètres à l'échelle 1/20 000.  HYDROGRAPHIE - Les entités hydrographiques peuvent comprendre des plans d'eau artificiels et naturels; - Les entités du réseau hydrographique (c.-à-d. lacs et rivières) d'une largeur moyenne inférieur à 20 m à l'échelle 1/20 000, sont représentées comme des entités linéaires. Les entités du réseau hydrographique de largeur supérieur à 20 m, à l'échelle 1/20 000, sont considérées comme des plans d'eau et représentées par des entités polygonales. Les polygones ont été identifiés séparément comme des cours d'eau, des réservoirs ou des lacs; - Les îles ont été constituées sous forme de polygones à l'intérieur des plans d'eau; - La jonction de deux plans d'eau (lacs vs cours d'eau) est numérisée de façon à ce qu'une ligne virtuelle de plan d'eau sépare les entités polygonales; - La position réelle est définie comme étant les coordonnées qui seraient obtenues par positionnement au sol d'après des méthodes d'ordre supérieur; - 90% de toutes les objets géographiques bien définies se situent à moins de 4 m, à l'échelle de 1/20 000 (photographie source à l'échelle de 1/40 000), de leur position réelle.</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:measureDescription>
+            <gmd:evaluationMethodDescription xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Circular Map Accuracy Standards (CMAS) for BDTQ - spot heights sources from Ministère des Ressources naturelles et Faune du Québec - DGIG.</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Précision circulaire cartographique normalisée (PCCN) pour BDTQ - source des points cotés du Ministère des Ressources naturelles et Faune du Québec - DGIG.</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:evaluationMethodDescription>
+            <gmd:result>
+              <gmd:DQ_QuantitativeResult>
+                <gmd:valueUnit>
+                  <gml:BaseUnit gml:id="HORIZ_EXPL_DNEC_MRNF.CMAS.BDTQ-POINTS-COTE_4">
+                    <gml:identifier codeSpace="http://www.bipm.org/en/si/base_units/">metre</gml:identifier>
+                    <gml:name codeSpace="http://www.bipm.org/en/si/base_units/">metre</gml:name>
+                    <gml:quantityType>length</gml:quantityType>
+                    <gml:catalogSymbol codeSpace="http://www.bipm.org/en/si/base_units/">m</gml:catalogSymbol>
+                    <gml:unitsSystem xlink:href="http://www.bipm.fr/en/si"/>
+                  </gml:BaseUnit>
+                </gmd:valueUnit>
+                <gmd:value>
+                  <gco:Record>
+                    <gco:Distance uom="m">4</gco:Distance>
+                  </gco:Record>
+                </gmd:value>
+              </gmd:DQ_QuantitativeResult>
+            </gmd:result>
+          </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+        </gmd:report>
+        <gmd:report>
+          <gmd:DQ_GriddedDataPositionalAccuracy>
+            <gmd:measureDescription xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>The vertical accuracy of the CDED is evaluated using ground control points from the Aerial Survey Data Base (ASDB). The ASDB was produced by the Mapping Information Branch of Natural Resources Canada. The ASDB contains a large number of control points located across Canada that have been established through the process of aerotriangulation, a rigorous photogrammetric network densification adjustment method, using geodetic points established by the Geodetic Survey Division of NRCan. The primary purpose of ASDB is to provide a homogeneous network of ground control points for the absolute orientation of the stereoscopic photogrammetric models used for the production of the 1/50 000 National Topographic Series (NTS) maps and the derived digital topographic and cartographic products. The CDED accuracy will be expressed as a linear error with a confidence level of 90% and obtained from the following formula: LE90 = sMNE * 1.6449</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">La précision verticale des fichiers DNEC a été évaluée par des mesures directes par rapport aux points de contrôle de la Base de Données des Levés Aériens -BDLA (Aerial Survey Data Base - ASDB) qui a été produite par la Direction d'information cartographique de Ressources Naturelles. La BDLA contient un grand nombre des points de contrôle couvrant une grande partie du territoire canadien. Les coordonnées X, Y, Z de ces points ont été calculées par un processus rigoureux de compensation par photo-triangulation qui constitue une densification du réseau de points géodésiques établis par la Division des Levés Géodésie de Ressources Naturelles Canada. La BDLA a fournit un réseau homogène de points de contrôle pour l'orientation absolue des modèles photogrammétriques stéréoscopiques utilisés pour la production des cartes topographiques à l'échelle de 1 :50 000 de la série SNRC (Système national de référence cartographique) et des produits cartographiques dérivés. La précision des fichiers DNEC est exprimée comme une erreur linéaire avec une probabilité de 90% et a été calculée en utilisant la formule suivante :  LE90 = sMNE * 1.6449</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:measureDescription>
+            <gmd:evaluationMethodDescription xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Linear Map Accuracy Standards (LMAS) for the elevation values. The Vertical Positional Accuracy was obtained from direct measurements using ASDB control points.</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Précision linéaire cartographique normalisée (PLCN) pour les valeurs d'élévation. Valeur de la précision d'alignement vertical obtenue par mesure directe utilisant les points de contrôle de l'ASDB.</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:evaluationMethodDescription>
+            <gmd:result>
+              <gmd:DQ_QuantitativeResult>
+                <gmd:valueUnit>
+                  <gml:BaseUnit gml:id="VERT_EXPL_DNEC_M-ASDB_1">
+                    <gml:identifier codeSpace="http://www.bipm.org/en/si/base_units/">metre</gml:identifier>
+                    <gml:name codeSpace="http://www.bipm.org/en/si/base_units/">metre</gml:name>
+                    <gml:quantityType>length</gml:quantityType>
+                    <gml:catalogSymbol codeSpace="http://www.bipm.org/en/si/base_units/">m</gml:catalogSymbol>
+                    <gml:unitsSystem xlink:href="http://www.bipm.fr/en/si"/>
+                  </gml:BaseUnit>
+                </gmd:valueUnit>
+                <gmd:value>
+                  <gco:Record>
+                    <gco:Distance uom="m">4.1</gco:Distance>
+                  </gco:Record>
+                </gmd:value>
+              </gmd:DQ_QuantitativeResult>
+            </gmd:result>
+          </gmd:DQ_GriddedDataPositionalAccuracy>
+        </gmd:report>
+        <gmd:lineage>
+          <gmd:LI_Lineage>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>Quebec CDED were created within the framework of Quebec's Ministère des Ressources naturelles et de la faunes (MRNF), Carto-Nord Project, using 1:20,000 source data acquired under the BDTQ (Base de données topographique du Québec) mapping program.  1. Altimetric Source Data Base de données topographique du Québec (BDTQ) Four main sources of data from the BDTQ were used to develop the CDED product. They are: 1) contours, 2) spot heights, 3) hydrographic network and 4) lake elevations derived from spot heights and hydrographic features of the BDTQ. Geometric and altimetric elements (contours at 10 m intervals) were derived from 1:40,000 scale aerial photography using photogrammetry.  2. Data Pre-processing The DEM offers a digital representation of the relief of an area, generated from altimetric (elevation) and planimetric (rectangular or geographic) data.  The DEM is obtained as a result of processing 1:20,000 BDTQ hypsometric data. This process consists of creating a network of irregular triangles (TIN) and connecting the TIN by using common points whose elevations are known. New elevation values are then interpolated between these points using a regular grid.  The expected accuracy is approximately 5 to 10 metres, that is to say half the contour interval used for the calculation of the model.  The standard DEM provides elevations that are tied to a grid of 0.324 arc seconds in geographical coordinates, which corresponds to a resolution of approximately 10 metres on the ground.  3. Geometric projection All elevation datasets are referenced using North American Datum 1983 (NAD83) as the standard horizontal datum. All CDED elevation data sources were projected to a geographical coordinate reference system prior to being interpolated with NAD83 datum being maintained.  4. DEM Interpolation Using ArcGIS version 9.1 Quebec DEM were created using ArcGIS (version 9.1). NTS neatline margins were specified for each CDED tile to identify the extents of the interpolation.  5. Post-processing Each DEM was transcribed into CDED format using Global Mapper (version 8.1).  6. Inspection Canada Centre for Mapping and Earth Observation (CCMEO) automatically inspected the final Quebec CDED product prior to archiving and distributing the product to the public.</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">Le produit DNEC du Québec a été créé dans le cadre du Projet Carto-Nord, du ministère des Ressources naturelles et de la faunes (MRNF) du Québec, à l'aide de données sources à l'échelle de 1/20 000 acquises au cours du programme de cartographie de base du Québec (BDTQ).  1. Sources des données altimétriques Base de données topographique du Québec (BDTQ) Quatre jeux de données principaux ont servi à mettre au point le produit DNEC. Il s'agit des jeux de données suivants : 1) Courbes de niveau de la BDTQ 2) Points cotés de la BDTQ, 3) Réseau hydrographique de la BDTQ, 4) Altitude des lacs déterminée à l'aide des points cotés et des entités hydrographiques de la BDTQ. Les éléments géométriques et altimétriques (courbes de niveaux à intervalles de 10m) ont été saisie par photogrammétrie avec des photographies aériennes à l'échelle 1/40 000.  2. Prétraitement des données Le modèle numérique d'altitude (MNA) offre une représentation numérique du relief d'un territoire généré à partir de données altimétriques (altitude) et planimétriques (rectangulaires ou géographiques).  Les MNA sont obtenu à la suite d'un traitement des données hypsométriques de la Base de données topographiques du Québec à l'échelle de 1/20 000 (BDTQ 20k). Ce traitement consiste à créer un réseau de triangles irréguliers (TIN) en reliant entre eux des points dont l'altitude est connue. Ensuite, l'interpolation de nouvelles valeurs d'altitude entre ces points est réalisée selon une grille régulière. La précision attendue par rapport à la réalité oscille généralement entre 5 et 10 mètres, soit l'équivalent d'une demi-équidistance des courbes de niveau utilisées pour le calcul du modèle. Le MNA standard fournit des valeurs d'altitude qui reposent sur un quadrillage de 0,324 secondes d'arc en coordonnées géographiques, ce qui correspond à une résolution d'environ 10 mètres sur le terrain.  3. Projection géométrique Tous les jeux de données altimétriques sont référencés d'après le Système de référence nord-américain de 1983 (NAD83) comme système de référence planimétrique. Toutes les sources de données altimétriques des DNEC ont été projetées suivant un système de référence avec coordonnées géographiques avant leur interpolation suivant le système de référence NAD83.  4. Interpolation des MNA à l'aide de la version 9.1 de ArcGIS Le logiciel ArcGIS (version 9.1) a servi à créer les MNA du Québec. Pour chaque pavé de DNEC, l'orle du feuillet correspondant du SNRC était précisé afin de déterminer l'étendue de l'interpolation.  5. Post-traitement des données Chacun des MNA a été transcrit au format DNEC à l'aide du logiciel Global Mapper (version 8.1).  6. Inspection Le Centre canadien de cartographie et d'observation de la Terre (CCCOT) a effectué une inspection automatisée du produit DNEC final du Québec avant l'archivage et la diffusion du produit au grand public.</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime>2008-12-15T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:source>
+              <gmd:LI_Source id="BDTQ-ALTI-LAC-BDTQ-0.0">
+                <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>hardDisk; Lake elevations</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">disqueDur; Altitudes de lac</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:description>
+                <gmd:scaleDenominator>
+                  <gmd:MD_RepresentativeFraction>
+                    <gmd:denominator>
+                      <gco:Integer>20000</gco:Integer>
+                    </gmd:denominator>
+                  </gmd:MD_RepresentativeFraction>
+                </gmd:scaleDenominator>
+                <gmd:sourceCitation>
+                  <gmd:CI_Citation>
+                    <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                      <gco:CharacterString>Base de données topographiques du Québec (BDTQ) - Lake elevations - BDTQ</gco:CharacterString>
+                      <gmd:PT_FreeText>
+                        <gmd:textGroup>
+                          <gmd:LocalisedCharacterString locale="#FR">Base de données topographiques du Québec (BDTQ) - Altitudes de lac - BDTQ</gmd:LocalisedCharacterString>
+                        </gmd:textGroup>
+                      </gmd:PT_FreeText>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                      <gco:CharacterString>BDTQ-ALTI-LAC-BDTQ-0.0</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                      <gmd:CI_Date>
+                        <gmd:date>
+                          <gco:Date>2007-04-01</gco:Date>
+                        </gmd:date>
+                        <gmd:dateType>
+                          <gmd:CI_DateTypeCode codeListValue="RI_367" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">publication; publication</gmd:CI_DateTypeCode>
+                        </gmd:dateType>
+                      </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:edition>
+                      <gco:CharacterString>0.0</gco:CharacterString>
+                    </gmd:edition>
+                    <gmd:citedResponsibleParty>
+                      <gmd:CI_ResponsibleParty>
+                        <gmd:organisationName>
+                          <gco:CharacterString>Direction générale de l'information géographique, Ministère des Ressources naturelles et de la Faune (MRNF), Québec</gco:CharacterString>
+                        </gmd:organisationName>
+                        <gmd:role>
+                          <gmd:CI_RoleCode codeListValue="RI_413" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">originator; auteur</gmd:CI_RoleCode>
+                        </gmd:role>
+                      </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:presentationForm>
+                      <gmd:CI_PresentationFormCode codeListValue="RI_391" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_89">mapDigital; carteNumérique</gmd:CI_PresentationFormCode>
+                    </gmd:presentationForm>
+                    <gmd:series>
+                      <gmd:CI_Series>
+                        <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                          <gco:CharacterString>Base de données topographiques du Québec (BDTQ) - Lake elevations</gco:CharacterString>
+                          <gmd:PT_FreeText>
+                            <gmd:textGroup>
+                              <gmd:LocalisedCharacterString locale="#FR">Base de données topographiques du Québec (BDTQ) - Altitudes de lac</gmd:LocalisedCharacterString>
+                            </gmd:textGroup>
+                          </gmd:PT_FreeText>
+                        </gmd:name>
+                        <gmd:issueIdentification>
+                          <gco:CharacterString>{$GS$ISSUE_INCONNU}</gco:CharacterString>
+                        </gmd:issueIdentification>
+                      </gmd:CI_Series>
+                    </gmd:series>
+                  </gmd:CI_Citation>
+                </gmd:sourceCitation>
+                <gmd:sourceExtent>
+                  <gmd:EX_Extent>
+                    <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                      <gco:CharacterString>publication date</gco:CharacterString>
+                      <gmd:PT_FreeText>
+                        <gmd:textGroup>
+                          <gmd:LocalisedCharacterString locale="#FR">date de publication</gmd:LocalisedCharacterString>
+                        </gmd:textGroup>
+                      </gmd:PT_FreeText>
+                    </gmd:description>
+                    <gmd:temporalElement>
+                      <gmd:EX_TemporalExtent>
+                        <gmd:extent>
+                          <gml:TimePeriod gml:id="tpBDTQ-ALTI-LAC-BDTQ-0.0">
+                            <gml:begin>
+                              <gml:TimeInstant gml:id="ti1BDTQ-ALTI-LAC-BDTQ-0.0">
+                                <gml:timePosition>1980-03-01</gml:timePosition>
+                              </gml:TimeInstant>
+                            </gml:begin>
+                            <gml:end>
+                              <gml:TimeInstant gml:id="ti2BDTQ-ALTI-LAC-BDTQ-0.0">
+                                <gml:timePosition>2006-04-18</gml:timePosition>
+                              </gml:TimeInstant>
+                            </gml:end>
+                          </gml:TimePeriod>
+                        </gmd:extent>
+                      </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                  </gmd:EX_Extent>
+                </gmd:sourceExtent>
+              </gmd:LI_Source>
+            </gmd:source>
+            <gmd:source>
+              <gmd:LI_Source id="BDTQ-COURBES-BDTQ-0.0">
+                <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>hardDisk; Contours</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">disqueDur; Courbes de niveau</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:description>
+                <gmd:scaleDenominator>
+                  <gmd:MD_RepresentativeFraction>
+                    <gmd:denominator>
+                      <gco:Integer>20000</gco:Integer>
+                    </gmd:denominator>
+                  </gmd:MD_RepresentativeFraction>
+                </gmd:scaleDenominator>
+                <gmd:sourceCitation>
+                  <gmd:CI_Citation>
+                    <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                      <gco:CharacterString>Base de données topographiques du Québec (BDTQ) - Contours - BDTQ</gco:CharacterString>
+                      <gmd:PT_FreeText>
+                        <gmd:textGroup>
+                          <gmd:LocalisedCharacterString locale="#FR">Base de données topographiques du Québec (BDTQ) - Courbes de niveau - BDTQ</gmd:LocalisedCharacterString>
+                        </gmd:textGroup>
+                      </gmd:PT_FreeText>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                      <gco:CharacterString>BDTQ-COURBES-BDTQ-0.0</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                      <gmd:CI_Date>
+                        <gmd:date>
+                          <gco:Date>2007-04-01</gco:Date>
+                        </gmd:date>
+                        <gmd:dateType>
+                          <gmd:CI_DateTypeCode codeListValue="RI_367" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">publication; publication</gmd:CI_DateTypeCode>
+                        </gmd:dateType>
+                      </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:edition>
+                      <gco:CharacterString>0.0</gco:CharacterString>
+                    </gmd:edition>
+                    <gmd:citedResponsibleParty>
+                      <gmd:CI_ResponsibleParty>
+                        <gmd:organisationName>
+                          <gco:CharacterString>Direction générale de l'information géographique, Ministère des Ressources naturelles et de la Faune (MRNF), Québec</gco:CharacterString>
+                        </gmd:organisationName>
+                        <gmd:role>
+                          <gmd:CI_RoleCode codeListValue="RI_413" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">originator; auteur</gmd:CI_RoleCode>
+                        </gmd:role>
+                      </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:presentationForm>
+                      <gmd:CI_PresentationFormCode codeListValue="RI_391" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_89">mapDigital; carteNumérique</gmd:CI_PresentationFormCode>
+                    </gmd:presentationForm>
+                    <gmd:series>
+                      <gmd:CI_Series>
+                        <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                          <gco:CharacterString>Base de données topographiques du Québec (BDTQ) - Contours</gco:CharacterString>
+                          <gmd:PT_FreeText>
+                            <gmd:textGroup>
+                              <gmd:LocalisedCharacterString locale="#FR">Base de données topographiques du Québec (BDTQ) - Courbes de niveau</gmd:LocalisedCharacterString>
+                            </gmd:textGroup>
+                          </gmd:PT_FreeText>
+                        </gmd:name>
+                        <gmd:issueIdentification>
+                          <gco:CharacterString>{$GS$ISSUE_INCONNU}</gco:CharacterString>
+                        </gmd:issueIdentification>
+                      </gmd:CI_Series>
+                    </gmd:series>
+                  </gmd:CI_Citation>
+                </gmd:sourceCitation>
+                <gmd:sourceExtent>
+                  <gmd:EX_Extent>
+                    <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                      <gco:CharacterString>publication date</gco:CharacterString>
+                      <gmd:PT_FreeText>
+                        <gmd:textGroup>
+                          <gmd:LocalisedCharacterString locale="#FR">date de publication</gmd:LocalisedCharacterString>
+                        </gmd:textGroup>
+                      </gmd:PT_FreeText>
+                    </gmd:description>
+                    <gmd:temporalElement>
+                      <gmd:EX_TemporalExtent>
+                        <gmd:extent>
+                          <gml:TimePeriod gml:id="tpBDTQ-COURBES-BDTQ-0.0">
+                            <gml:begin>
+                              <gml:TimeInstant gml:id="ti1BDTQ-COURBES-BDTQ-0.0">
+                                <gml:timePosition>1980-03-01</gml:timePosition>
+                              </gml:TimeInstant>
+                            </gml:begin>
+                            <gml:end>
+                              <gml:TimeInstant gml:id="ti2BDTQ-COURBES-BDTQ-0.0">
+                                <gml:timePosition>2006-04-18</gml:timePosition>
+                              </gml:TimeInstant>
+                            </gml:end>
+                          </gml:TimePeriod>
+                        </gmd:extent>
+                      </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                  </gmd:EX_Extent>
+                </gmd:sourceExtent>
+              </gmd:LI_Source>
+            </gmd:source>
+            <gmd:source>
+              <gmd:LI_Source id="BDTQ-POINTS-COTE-BDTQ-0.0">
+                <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>hardDisk; Spot heights</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">disqueDur; Points cotés</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:description>
+                <gmd:scaleDenominator>
+                  <gmd:MD_RepresentativeFraction>
+                    <gmd:denominator>
+                      <gco:Integer>20000</gco:Integer>
+                    </gmd:denominator>
+                  </gmd:MD_RepresentativeFraction>
+                </gmd:scaleDenominator>
+                <gmd:sourceCitation>
+                  <gmd:CI_Citation>
+                    <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                      <gco:CharacterString>Base de données topographiques du Québec (BDTQ) - Spot heights - BDTQ</gco:CharacterString>
+                      <gmd:PT_FreeText>
+                        <gmd:textGroup>
+                          <gmd:LocalisedCharacterString locale="#FR">Base de données topographiques du Québec (BDTQ) - Points cotés - BDTQ</gmd:LocalisedCharacterString>
+                        </gmd:textGroup>
+                      </gmd:PT_FreeText>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                      <gco:CharacterString>BDTQ-POINTS-COTE-BDTQ-0.0</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                      <gmd:CI_Date>
+                        <gmd:date>
+                          <gco:Date>2007-04-01</gco:Date>
+                        </gmd:date>
+                        <gmd:dateType>
+                          <gmd:CI_DateTypeCode codeListValue="RI_367" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">publication; publication</gmd:CI_DateTypeCode>
+                        </gmd:dateType>
+                      </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:edition>
+                      <gco:CharacterString>0.0</gco:CharacterString>
+                    </gmd:edition>
+                    <gmd:citedResponsibleParty>
+                      <gmd:CI_ResponsibleParty>
+                        <gmd:organisationName>
+                          <gco:CharacterString>Direction générale de l'information géographique, Ministère des Ressources naturelles et de la Faune (MRNF), Québec</gco:CharacterString>
+                        </gmd:organisationName>
+                        <gmd:role>
+                          <gmd:CI_RoleCode codeListValue="RI_413" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">originator; auteur</gmd:CI_RoleCode>
+                        </gmd:role>
+                      </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:presentationForm>
+                      <gmd:CI_PresentationFormCode codeListValue="RI_391" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_89">mapDigital; carteNumérique</gmd:CI_PresentationFormCode>
+                    </gmd:presentationForm>
+                    <gmd:series>
+                      <gmd:CI_Series>
+                        <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                          <gco:CharacterString>Base de données topographiques du Québec (BDTQ) - Spot heights</gco:CharacterString>
+                          <gmd:PT_FreeText>
+                            <gmd:textGroup>
+                              <gmd:LocalisedCharacterString locale="#FR">Base de données topographiques du Québec (BDTQ) - Points cotés</gmd:LocalisedCharacterString>
+                            </gmd:textGroup>
+                          </gmd:PT_FreeText>
+                        </gmd:name>
+                        <gmd:issueIdentification>
+                          <gco:CharacterString>{$GS$ISSUE_INCONNU}</gco:CharacterString>
+                        </gmd:issueIdentification>
+                      </gmd:CI_Series>
+                    </gmd:series>
+                  </gmd:CI_Citation>
+                </gmd:sourceCitation>
+                <gmd:sourceExtent>
+                  <gmd:EX_Extent>
+                    <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                      <gco:CharacterString>publication date</gco:CharacterString>
+                      <gmd:PT_FreeText>
+                        <gmd:textGroup>
+                          <gmd:LocalisedCharacterString locale="#FR">date de publication</gmd:LocalisedCharacterString>
+                        </gmd:textGroup>
+                      </gmd:PT_FreeText>
+                    </gmd:description>
+                    <gmd:temporalElement>
+                      <gmd:EX_TemporalExtent>
+                        <gmd:extent>
+                          <gml:TimePeriod gml:id="tpBDTQ-POINTS-COTE-BDTQ-0.0">
+                            <gml:begin>
+                              <gml:TimeInstant gml:id="ti1BDTQ-POINTS-COTE-BDTQ-0.0">
+                                <gml:timePosition>1980-03-01</gml:timePosition>
+                              </gml:TimeInstant>
+                            </gml:begin>
+                            <gml:end>
+                              <gml:TimeInstant gml:id="ti2BDTQ-POINTS-COTE-BDTQ-0.0">
+                                <gml:timePosition>2006-04-18</gml:timePosition>
+                              </gml:TimeInstant>
+                            </gml:end>
+                          </gml:TimePeriod>
+                        </gmd:extent>
+                      </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                  </gmd:EX_Extent>
+                </gmd:sourceExtent>
+              </gmd:LI_Source>
+            </gmd:source>
+            <gmd:source>
+              <gmd:LI_Source id="BDTQ-HYDRO-BDTQ-0.0">
+                <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>hardDisk; Hydrography</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                      <gmd:LocalisedCharacterString locale="#FR">disqueDur; Hydrographie</gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                  </gmd:PT_FreeText>
+                </gmd:description>
+                <gmd:scaleDenominator>
+                  <gmd:MD_RepresentativeFraction>
+                    <gmd:denominator>
+                      <gco:Integer>20000</gco:Integer>
+                    </gmd:denominator>
+                  </gmd:MD_RepresentativeFraction>
+                </gmd:scaleDenominator>
+                <gmd:sourceCitation>
+                  <gmd:CI_Citation>
+                    <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                      <gco:CharacterString>Base de données topographiques du Québec (BDTQ) - Hydrography - BDTQ</gco:CharacterString>
+                      <gmd:PT_FreeText>
+                        <gmd:textGroup>
+                          <gmd:LocalisedCharacterString locale="#FR">Base de données topographiques du Québec (BDTQ) - Hydrographie - BDTQ</gmd:LocalisedCharacterString>
+                        </gmd:textGroup>
+                      </gmd:PT_FreeText>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                      <gco:CharacterString>BDTQ-HYDRO-BDTQ-0.0</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                      <gmd:CI_Date>
+                        <gmd:date>
+                          <gco:Date>2007-04-01</gco:Date>
+                        </gmd:date>
+                        <gmd:dateType>
+                          <gmd:CI_DateTypeCode codeListValue="RI_367" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">publication; publication</gmd:CI_DateTypeCode>
+                        </gmd:dateType>
+                      </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:edition>
+                      <gco:CharacterString>0.0</gco:CharacterString>
+                    </gmd:edition>
+                    <gmd:citedResponsibleParty>
+                      <gmd:CI_ResponsibleParty>
+                        <gmd:organisationName>
+                          <gco:CharacterString>Direction générale de l'information géographique, Ministère des Ressources naturelles et de la Faune (MRNF), Québec</gco:CharacterString>
+                        </gmd:organisationName>
+                        <gmd:role>
+                          <gmd:CI_RoleCode codeListValue="RI_413" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">originator; auteur</gmd:CI_RoleCode>
+                        </gmd:role>
+                      </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:presentationForm>
+                      <gmd:CI_PresentationFormCode codeListValue="RI_391" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_89">mapDigital; carteNumérique</gmd:CI_PresentationFormCode>
+                    </gmd:presentationForm>
+                    <gmd:series>
+                      <gmd:CI_Series>
+                        <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                          <gco:CharacterString>Base de données topographiques du Québec (BDTQ) - Hydrography</gco:CharacterString>
+                          <gmd:PT_FreeText>
+                            <gmd:textGroup>
+                              <gmd:LocalisedCharacterString locale="#FR">Base de données topographiques du Québec (BDTQ) - Hydrographie</gmd:LocalisedCharacterString>
+                            </gmd:textGroup>
+                          </gmd:PT_FreeText>
+                        </gmd:name>
+                        <gmd:issueIdentification>
+                          <gco:CharacterString>{$GS$ISSUE_INCONNU}</gco:CharacterString>
+                        </gmd:issueIdentification>
+                      </gmd:CI_Series>
+                    </gmd:series>
+                  </gmd:CI_Citation>
+                </gmd:sourceCitation>
+                <gmd:sourceExtent>
+                  <gmd:EX_Extent>
+                    <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                      <gco:CharacterString>publication date</gco:CharacterString>
+                      <gmd:PT_FreeText>
+                        <gmd:textGroup>
+                          <gmd:LocalisedCharacterString locale="#FR">date de publication</gmd:LocalisedCharacterString>
+                        </gmd:textGroup>
+                      </gmd:PT_FreeText>
+                    </gmd:description>
+                    <gmd:temporalElement>
+                      <gmd:EX_TemporalExtent>
+                        <gmd:extent>
+                          <gml:TimePeriod gml:id="tpBDTQ-HYDRO-BDTQ-0.0">
+                            <gml:begin>
+                              <gml:TimeInstant gml:id="ti1BDTQ-HYDRO-BDTQ-0.0">
+                                <gml:timePosition>1980-03-01</gml:timePosition>
+                              </gml:TimeInstant>
+                            </gml:begin>
+                            <gml:end>
+                              <gml:TimeInstant gml:id="ti2BDTQ-HYDRO-BDTQ-0.0">
+                                <gml:timePosition>2006-04-18</gml:timePosition>
+                              </gml:TimeInstant>
+                            </gml:end>
+                          </gml:TimePeriod>
+                        </gmd:extent>
+                      </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                  </gmd:EX_Extent>
+                </gmd:sourceExtent>
+              </gmd:LI_Source>
+            </gmd:source>
+          </gmd:LI_Lineage>
+        </gmd:lineage>
+      </gmd:DQ_DataQuality>
+    </gmd:dataQualityInfo>
+    <gmd:metadataConstraints>
+      <gmd:MD_LegalConstraints>
+        <gmd:accessConstraints>
+          <gmd:MD_RestrictionCode codeListValue="RI_609" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107">otherRestrictions; autresRestrictions</gmd:MD_RestrictionCode>
+        </gmd:accessConstraints>
+        <gmd:otherConstraints xsi:type="gmd:PT_FreeText_PropertyType">
+          <gco:CharacterString>None</gco:CharacterString>
+          <gmd:PT_FreeText>
+            <gmd:textGroup>
+              <gmd:LocalisedCharacterString locale="#FR">Aucune</gmd:LocalisedCharacterString>
+            </gmd:textGroup>
+          </gmd:PT_FreeText>
+        </gmd:otherConstraints>
+      </gmd:MD_LegalConstraints>
+    </gmd:metadataConstraints>
+    <gmd:metadataConstraints>
+      <gmd:MD_LegalConstraints>
+        <gmd:useConstraints>
+          <gmd:MD_RestrictionCode codeListValue="RI_610" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107">licenseUnrestricted; licenceSansRestriction</gmd:MD_RestrictionCode>
+        </gmd:useConstraints>
+        <gmd:otherConstraints xsi:type="gmd:PT_FreeText_PropertyType">
+          <gco:CharacterString>Open Government Licence - Canada (http://data.gc.ca/eng/open-government-licence-canada)</gco:CharacterString>
+          <gmd:PT_FreeText>
+            <gmd:textGroup>
+              <gmd:LocalisedCharacterString locale="#FR">Licence du gouvernement ouvert - Canada (http://donnees.gc.ca/fra/licence-du-gouvernement-ouvert-canada)</gmd:LocalisedCharacterString>
+            </gmd:textGroup>
+          </gmd:PT_FreeText>
+        </gmd:otherConstraints>
+      </gmd:MD_LegalConstraints>
+    </gmd:metadataConstraints>
+    <gmd:metadataMaintenance>
+      <gmd:MD_MaintenanceInformation>
+        <gmd:maintenanceAndUpdateFrequency>
+          <gmd:MD_MaintenanceFrequencyCode codeListValue="RI_542" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102">notPlanned; nonPlanifié</gmd:MD_MaintenanceFrequencyCode>
+        </gmd:maintenanceAndUpdateFrequency>
+        <gmd:contact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>Government of Canada; Natural Resources Canada; Earth Sciences Sector; Canada Centre for Mapping and Earth Observation</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre; Centre canadien de cartographie et d'observation de la Terre</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:organisationName>
+            <gmd:positionName xsi:type="gmd:PT_FreeText_PropertyType">
+              <gco:CharacterString>GeoBase Technical Support</gco:CharacterString>
+              <gmd:PT_FreeText>
+                <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Soutien technique GéoBase</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+              </gmd:PT_FreeText>
+            </gmd:positionName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:phone>
+                  <gmd:CI_Telephone>
+                    <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                      <gco:CharacterString>voice; 1 (819) 5645600</gco:CharacterString>
+                      <gmd:PT_FreeText>
+                        <gmd:textGroup>
+                          <gmd:LocalisedCharacterString locale="#FR">voix; 1 (819) 5645600</gmd:LocalisedCharacterString>
+                        </gmd:textGroup>
+                      </gmd:PT_FreeText>
+                    </gmd:voice>
+                    <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                      <gco:CharacterString>voice; 1 (800) 6612638</gco:CharacterString>
+                      <gmd:PT_FreeText>
+                        <gmd:textGroup>
+                          <gmd:LocalisedCharacterString locale="#FR">voix; 1 (800) 6612638</gmd:LocalisedCharacterString>
+                        </gmd:textGroup>
+                      </gmd:PT_FreeText>
+                    </gmd:voice>
+                    <gmd:facsimile>
+                      <gco:CharacterString>1 (819) 5645698</gco:CharacterString>
+                    </gmd:facsimile>
+                  </gmd:CI_Telephone>
+                </gmd:phone>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:deliveryPoint xsi:type="gmd:PT_FreeText_PropertyType">
+                      <gco:CharacterString>physical; 2144; King Street West; ; 010</gco:CharacterString>
+                      <gmd:PT_FreeText>
+                        <gmd:textGroup>
+                          <gmd:LocalisedCharacterString locale="#FR">physique; 2144; rue King Ouest; ; 010</gmd:LocalisedCharacterString>
+                        </gmd:textGroup>
+                      </gmd:PT_FreeText>
+                    </gmd:deliveryPoint>
+                    <gmd:city>
+                      <gco:CharacterString>Sherbrooke</gco:CharacterString>
+                    </gmd:city>
+                    <gmd:administrativeArea>
+                      <gco:CharacterString>Québec</gco:CharacterString>
+                    </gmd:administrativeArea>
+                    <gmd:postalCode>
+                      <gco:CharacterString>J1J 2E8</gco:CharacterString>
+                    </gmd:postalCode>
+                    <gmd:country>
+                      <gco:CharacterString>CANADA</gco:CharacterString>
+                    </gmd:country>
+                    <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                      <gco:CharacterString>SupportGeoBase@nrcan.gc.ca</gco:CharacterString>
+                      <gmd:PT_FreeText>
+                        <gmd:textGroup>
+                          <gmd:LocalisedCharacterString locale="#FR">SoutienGeoBase@rncan.gc.ca</gmd:LocalisedCharacterString>
+                        </gmd:textGroup>
+                      </gmd:PT_FreeText>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+                <gmd:onlineResource>
+                  <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                      <gmd:URL>www.geobase.ca</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:protocol>
+                      <gco:CharacterString>HTTP</gco:CharacterString>
+                    </gmd:protocol>
+                    <gmd:function>
+                      <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+                    </gmd:function>
+                  </gmd:CI_OnlineResource>
+                </gmd:onlineResource>
+                <gmd:hoursOfService>
+                  <gco:CharacterString>8:30/12:00; 13:00/16:30</gco:CharacterString>
+                </gmd:hoursOfService>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeListValue="RI_414" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">pointOfContact; contact</gmd:CI_RoleCode>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:contact>
+      </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
+  </gmd:MD_Metadata>
