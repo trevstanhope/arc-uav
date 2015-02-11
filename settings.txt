@@ -1,6 +1,8 @@
 {
 "features_path" : "C:\\Users\\Trevor\\Documents\\ArcGIS\\Projects\\Model Builder Project\\data\\features\\",
 "temp_path" : "C:\\Users\\Trevor\\Documents\\ArcGIS\\Projects\\Model Builder Project\\temp",
+"log_path" : "C:\\Users\\Trevor\\Documents\\ArcGIS\\Projects\\Model Builder Project\\log",
+"error_file" : "errors.log",
 "pickup_file" : "021L14_silo_p.shp",
 "dropoff_file" : "021L14_lu_yard_a.shp",
 "start_file" : "021L14_runway_a.shp",
