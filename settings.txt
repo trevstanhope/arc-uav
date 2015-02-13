@@ -1,7 +1,9 @@
 {
 "features_path" : "C:\\Users\\Trevor\\Documents\\ArcGIS\\Projects\\Model Builder Project\\data\\features\\",
+"dem_path" : "C:\\Users\\Trevor\\Documents\\ArcGIS\\Projects\\Model Builder Project\\data\\dem\\",
 "temp_path" : "C:\\Users\\Trevor\\Documents\\ArcGIS\\Projects\\Model Builder Project\\temp",
 "log_path" : "C:\\Users\\Trevor\\Documents\\ArcGIS\\Projects\\Model Builder Project\\log",
+"output_path" : "C:\\Users\\Trevor\\Documents\\ArcGIS\\Projects\\Model Builder Project\\output",
 "error_file" : "errors.log",
 "pickup_file" : "021L14_silo_p.shp",
 "dropoff_file" : "021L14_lu_yard_a.shp",
@@ -9,5 +11,9 @@
 "roads_file" : "021L14_road_l.shp",
 "pipelines_file" : "021L14_pipelin_l.shp",
 "railways_file" : "021L14_railway_l.shp",
-"waypoint_file" : "waypoints.csv"
+"waypoint_file" : "waypoints.csv",
+"dem_file" : "021l14_0200_dem.dem",
+"road_buffer" : "0.1 Kilometers",
+"railway_buffer" : "1 Kilometers",
+"pipeline_buffer" : "1 Kilometers"
 }
